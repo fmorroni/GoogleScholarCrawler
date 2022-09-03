@@ -1,7 +1,8 @@
-import fetch, {Request} from 'node-fetch';
-import { JSDOM } from 'jsdom';
+//import fetch, {Request} from 'node-fetch';
+import {Request} from 'node-fetch';
+import makeRequest from './makeRequest.js';
 
-async function makeRequest(myRequest) {
+/*async function makeRequest(myRequest) {
     try {
         const response = await fetch(myRequest);
         let document = new JSDOM(await response.text()).window.document;
@@ -10,7 +11,7 @@ async function makeRequest(myRequest) {
     } catch (error) {
         console.log('Error in makeRequest', error);
     }
-}
+}*/
 
 let userId = 'xeL-QIoAAAAJ';
 
