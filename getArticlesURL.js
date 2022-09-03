@@ -1,19 +1,9 @@
 //import fetch, {Request} from 'node-fetch';
 import {Request} from 'node-fetch';
 import makeRequest from './makeRequest.js';
+import getUserId from './getUserId.js';
 
-/*async function makeRequest(myRequest) {
-    try {
-        const response = await fetch(myRequest);
-        let document = new JSDOM(await response.text()).window.document;
-        
-        return document;
-    } catch (error) {
-        console.log('Error in makeRequest', error);
-    }
-}*/
-
-let userId = 'xeL-QIoAAAAJ';
+//let userId = 'xeL-QIoAAAAJ';
 
 async function getCitationURLs(userId) {
     let domain = 'https://scholar.google.com';
@@ -48,8 +38,10 @@ async function getCitationURLs(userId) {
 }
 
 let citationLinks;
-getCitationURLs(userId).then(response => {
-    citationLinks = response;
-    console.log("Links: ", citationLinks);
-    console.log("Amount of articles: ", citationLinks.length);
+getUserId('Marcelo F. Frías').then(userId => {
+    getCitationURLs(userId).then(response => {
+        citationLinks = response;
+        console.log("Links: ", citationLinks);
+        console.log("Amount of articles: ", citationLinks.length);
+    });
 });
