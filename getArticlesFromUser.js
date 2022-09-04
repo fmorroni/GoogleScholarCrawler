@@ -43,11 +43,17 @@ function timeout(ms) {
 	return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-
-
+/* Researcher names for testing
+	Marcelo F. Frías (137 articles)
+	Silvyo Ergatis (2 articles)
+	carlos gustavo lopez pombo (13 articles)
+	Juan Pablo Galeotti (77 articles)
+*/
 let articles;
-getArticlesFromUser('Juan Pablo Galeotti').then(arts => {
-	articles = arts;
-	console.log(articles);
-});
+getArticlesFromUser('Silvyo Ergatis')
+.then(promisedArticles => {
+	articles = promisedArticles;
+	console.log('Articles: ', articles);
+})
+.catch(error => console.error(error));
 
