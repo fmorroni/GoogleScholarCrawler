@@ -4,33 +4,46 @@ import getArticlesURL from './getArticlesURL.js'
 async function getArticlesFromUser(username) {
 	try {
 		let citationLinks = await getArticlesURL(username);
-		const maxParalelRequests = 10;
+		const batchSize = 20;
 		let articles = [];
 		while (citationLinks.length) {
-			console.log('Getting promises...');
-			let promises = await getArticlePromises(citationLinks.splice(0, maxParalelRequests));
-			console.log('Got promises.');
-			console.log('Generating article batch...');
-			Promise.all(promises).then(promisedArticles => {
-				articles.concat(promisedArticles);
-			});
-			console.log('Batch generated.');
+			let articleBatch = await parseArticleBatch(citationLinks.splice(0, batchSize));
+				articles = articles.concat(articleBatch);
+			console.log('Number of articles: ', articles.length);
 		}
-		console.log('Generated all articles.');
+        
+		return Promise.resolve(articles);
 	} catch(error) {
-		console.error(error);
+		return Promise.reject(error);
 	}
 }
 
-async function getArticlePromises(citationLinks) {
+async function parseArticleBatch(citationLinks) {
 	let promises = [];
 	for (let link of citationLinks) {
-			let articleParser = new ArticleParser();
-			promises.push(articleParser.generateArticle(link));
+		let articleParser = new ArticleParser();
+		promises.push(articleParser.generateArticle(link));
 	}
 
-	return Promise.resolve(promises);
+	const delay = 5*1000; // In ms.
+	// The timeout here will make sure every batch takes at least $delay ms to complete.
+	// This is done to (hopefully) avoid triggering google scholar's bot detection.
+	let promisedArticles = await Promise.allSettled([...promises, timeout(delay)]);
+	promisedArticles.pop();
+	let articles = [];
+	promisedArticles.forEach(article => {
+		(article.status === 'fulfilled') ? articles.push(article.value) : articles.push(article.reason);
+	});
+	console.log('Batch parsed.', articles);
+	
+	return articles;
 }
+
+function timeout(ms) {
+	return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+
 
 let articles;
 getArticlesFromUser('Juan Pablo Galeotti').then(arts => {
