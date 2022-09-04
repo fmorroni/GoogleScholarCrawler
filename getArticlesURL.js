@@ -3,7 +3,7 @@ import {Request} from 'node-fetch';
 import makeRequest from './makeRequest.js';
 import getUserId from './getUserId.js';
 
-async function getArticlesURL(username) {
+export default async function getArticlesURL(username) {
     try {
         let userId = await getUserId(username);
         console.log(username + ': ' + userId);
@@ -16,7 +16,7 @@ async function getArticlesURL(username) {
         let thereAreArticles = 1;
         do {
             let requestUrl = `${domain}/citations?user=${userId}&cstart=${pageStart}&pagesize=${pageSize}`;
-            console.log(pageStart, requestUrl);
+            //console.log(pageStart, requestUrl);
             let myRequest = new Request(requestUrl);
             pageStart += pageSize;
 
@@ -35,16 +35,16 @@ async function getArticlesURL(username) {
 
 }
 
-let username = 'Marcelo F. Frías';
-if (process.argv.length > 2) {
-    username = process.argv[2];
-}
-
-let citationLinks;
-getArticlesURL(username)
-    .then(response => {
-    citationLinks = response;
-    console.log("Links: ", citationLinks);
-    console.log("Amount of articles: ", citationLinks.length);
-    })
-    .catch(error => console.error(error));
+//let username = 'Marcelo F. Frías';
+//if (process.argv.length > 2) {
+    //username = process.argv[2];
+//}
+//
+//let citationLinks;
+//getArticlesURL(username)
+    //.then(response => {
+    //citationLinks = response;
+    //console.log("Links: ", citationLinks);
+    //console.log("Amount of articles: ", citationLinks.length);
+    //})
+    //.catch(error => console.error(error));

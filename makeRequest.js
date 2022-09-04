@@ -6,7 +6,7 @@ export default async function makeRequest(myRequest) {
         const response = await fetch(myRequest);
         let document = new JSDOM(await response.text()).window.document;
         
-        return document;
+        return Promise.resolve(document);
     } catch (error) {
         console.log('Error in makeRequest', error);
     }

@@ -1,9 +1,9 @@
 import {Request} from 'node-fetch';
 import makeRequest from './makeRequest.js';
 
-export default async function getUserId(userId) {
+export default async function getUserId(username) {
     let domain = 'https://scholar.google.com';
-    let requestUrl = `${domain}/citations?view_op=search_authors&mauthors=${userId}`;
+    let requestUrl = `${domain}/citations?view_op=search_authors&mauthors=${username}`;
     let myRequest = new Request(requestUrl);
 
     try {
