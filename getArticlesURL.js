@@ -20,7 +20,7 @@ export default async function getArticlesURL(username) {
         let citations = document.querySelectorAll('form table tbody')[0].querySelectorAll('tr');
         articlesLeft = Boolean(citations[0].querySelector('a'));
         if (articlesLeft) {
-            citations.forEach(ele => citationLinks.push(ele.querySelector('a').href));
+            citations.forEach(ele => citationLinks.push(domain + ele.querySelector('a').href));
         } 
     } while (articlesLeft);
 
