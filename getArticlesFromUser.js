@@ -49,7 +49,7 @@ function timeout(ms) {
 	Juan Pablo Galeotti (77 articles)
 */
 let articles;
-getArticlesFromUser('Marcelo F. Frías')
+getArticlesFromUser('Silvyo Ergatis')
 	.then(promisedArticles => {
 		articles = promisedArticles;
 		console.log('Articles: ', articles);
