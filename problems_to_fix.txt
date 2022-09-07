@@ -1,0 +1,2 @@
+- Article contents are not the same across the board. Sometimes there are more content rows, sometimes less. So index based parsing is out of the question. Change it to header based parsing (probably better to use either english headers or both english and spanish).
+- The notFoundMsg assignment needs to be done before trying to acces element properties. Otherwise, if the element wasn't found, an error will be thrown and the assignment will never happen.
