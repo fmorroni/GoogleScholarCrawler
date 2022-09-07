@@ -1,14 +1,14 @@
-import fetch, {Request, Headers} from 'node-fetch';
+import fetch, { Request, Headers } from 'node-fetch';
 import { JSDOM } from 'jsdom';
 
 export default async function makeRequest(requestUrl) {
     try {
-        const myRequest = new Request(requestUrl, {headers: parseHeaders()});
+        const myRequest = new Request(requestUrl, { headers: parseHeaders() });
         const response = await fetch(myRequest);
         let document = new JSDOM(await response.text()).window.document;
         if (/(unusual traffic)|(tráfico inusual)/.test(document.body.textContent)) {
             console.log('EMPEZÓ A BLOQUEAR!!!');
-            throw(new Error(`Blocked at ${myRequest.url} by google scholar for unusual traffic.`));
+            throw (new Error(`Blocked at ${myRequest.url} by google scholar for unusual traffic.`));
         }
         return Promise.resolve(document);
     } catch (error) {
@@ -19,7 +19,7 @@ export default async function makeRequest(requestUrl) {
 function parseHeaders() {
     // Directly copied from a real user request.
     // Without headers Google Scholar was blocking every request I tried to make.
-    let requestHeaders =   `:authority: scholar.google.com
+    let requestHeaders = `:authority: scholar.google.com
                             :method: GET
                             :path: /citations?view_op=search_authors&mauthors=asdf&hl=en&oi=drw
                             :scheme: https
@@ -46,7 +46,7 @@ function parseHeaders() {
             }
             header = header.split(': ');
             myHeaders.append(header[0], header[1]);
-        }   
+        }
     }
 
     return myHeaders;

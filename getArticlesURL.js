@@ -1,7 +1,7 @@
 import makeRequest from './makeRequest.js';
 import getUserId from './getUserId.js';
 
-export default async function getArticlesURL(username) {	
+export default async function getArticlesURL(username) {
     try {
         let userId = await getUserId(username);
         console.log(username + ': ' + userId);
@@ -21,7 +21,7 @@ export default async function getArticlesURL(username) {
             articlesLeft = Boolean(citations[0].querySelector('a'));
             if (articlesLeft) {
                 citations.forEach(ele => citationLinks.push(domain + ele.querySelector('a').href));
-            } 
+            }
         } while (articlesLeft);
 
         return Promise.resolve(citationLinks);
