@@ -68,7 +68,7 @@ export class ArticleParser {
     }
 
     parsePdfLink() {
-        let pdfLink = this.articleDom.querySelector('div[class*="title"]');
+        let pdfLink = this.articleDom.querySelector('div[class*="title"]').children[0].href;
 
         if (!pdfLink) pdfLink = this.notFoundMsg;
 
@@ -108,7 +108,7 @@ export class ArticleParser {
     }
 
     parseTotalCitations() {
-        let totalCitations = parseInt(this.contentsNodeList.querySelector('div[id*="table"').querySelectorAll(':scope > div')[5].children[1].children[0].textContent.match(/\d+/)[0]);
+        let totalCitations = parseInt(this.contentsNodeList[5].children[1].children[0].textContent.match(/\d+/)[0]);
 
         if (!totalCitations) totalCitations = this.notFoundMsg;
 
