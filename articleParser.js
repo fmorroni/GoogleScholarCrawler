@@ -5,17 +5,18 @@ export class Article {
         this.title;
         this.articleLink;
         this.pdfLink;
-        this.authors;
-        this.publicationDate;
-        this.book;
-        this.description;
-        this.totalCitations;
+        // this.authors;
+        // this.publicationDate;
+        // this.book;
+        // this.description;
+        // this.totalCitations;
     }
 }
 
 export class ArticleParser {
     constructor() {
         this.articleDom;
+        this.article;
         this.contentsNodeList;
         this.isComplete;
         this.notFoundMsg = '<Value not found.>';
@@ -24,25 +25,26 @@ export class ArticleParser {
     async generateArticle(articleUrl) {
         try {
             this.articleDom = await makeRequest(articleUrl);
-            this.isComplete = Boolean(this.articleDom.querySelector('a[class*="title"]'));
+            // this.isComplete = Boolean(this.articleDom.querySelector('a[class*="title"]'));
 
-            let article = new Article();
-            article.title = this.parseTitle();
-            if (!this.isComplete) throw (new Error(`\nArticle \n--- ${article.title} ---\nat \n${articleUrl}\n is missing information. Skiping.`));
+            this.article = new Article();
+            this.parseTitle();
+            //if (!this.isComplete) throw (new Error(`\nArticle \n--- ${article.title} ---\nat \n${articleUrl}\n is missing information. Skiping.`));
 
-            article.articleLink = this.parseArticleLink();
-            article.pdfLink = this.parsePdfLink();
+            this.parseArticleLink();
+            this.parsePdfLink();
 
             this.contentsNodeList = this.articleDom.querySelector('div[id*="table"').querySelectorAll(':scope > div');
+            this.parseContents();
 
-            article.authors = this.parseAuthors();
+            // article.authors = this.parseAuthors();
 
-            article.publicationDate = this.parsePublicationDate();
-            article.book = this.parseBook();
-            article.description = this.parseDescription();
-            article.totalCitations = this.parseTotalCitations();
+            // article.publicationDate = this.parsePublicationDate();
+            // article.book = this.parseBook();
+            // article.description = this.parseDescription();
+            // article.totalCitations = this.parseTotalCitations();
 
-            return Promise.resolve(article);
+            return Promise.resolve(this.article);
         } catch (error) {
             //console.error('Error while parsing article at ' + articleUrl, error);
             return Promise.reject(error);
@@ -50,68 +52,68 @@ export class ArticleParser {
     }
 
     parseTitle() {
-        let title = this.isComplete ?
-            this.articleDom.querySelector('a[class*="title"]').textContent :
-            this.articleDom.querySelector('div[id*="title"]').textContent;
+        let title = this.articleDom.querySelector('div[id*="title"]').lastChild;
         
-        if (!title) title = this.notFoundMsg;
-
-        return title;
+        this.article.title = title ? title.textContent : this.notFoundMsg;
     }
 
     parseArticleLink() {
-        let articleLink = this.articleDom.querySelector('a[class*="title"]').href;
+        let articleLink = this.articleDom.querySelector('a[class*="title"]');
 
-        if (!articleLink) articleLink = this.notFoundMsg;
-
-        return articleLink;
+        this.article.articleLink = articleLink ? articleLink.href : this.notFoundMsg;
     }
 
     parsePdfLink() {
-        let pdfLink = this.articleDom.querySelector('div[class*="title"]').children[0].href;
+        let pdfLink = this.articleDom.querySelector('div[class*="title"] > a');
 
-        if (!pdfLink) pdfLink = this.notFoundMsg;
-
-        return pdfLink;
+        this.article.pdfLink = pdfLink ? pdfLink.href : this.notFoundMsg;
     }
 
-    parseAuthors() {
-        let authors = this.contentsNodeList[0].children[1].textContent.split(', ');
-
-        if (!authors) authors = this.notFoundMsg;
-
-        return authors;
+    parseContents() {
+        for (let node of this.contentsNodeList) {
+            let key = node.children[0].textContent;
+            this.article[key] = node.children[1].textContent;
+        }
     }
 
-    parsePublicationDate() {
-        let publicationDate = this.contentsNodeList[1].children[1].textContent;
+    // parseAuthors() {
+    //     let authors = this.contentsNodeList[0].children[1].textContent.split(', ');
 
-        if (!publicationDate) publicationDate = this.notFoundMsg;
+    //     if (!authors) authors = this.notFoundMsg;
 
-        return publicationDate;
-    }
+    //     return authors;
+    // }
 
-    parseBook() {
-        let book = this.contentsNodeList[2].children[1].textContent;
+    // parsePublicationDate() {
+    //     let publicationDate = this.contentsNodeList[1].children[1].textContent;
 
-        if (!book) book = this.notFoundMsg;
+    //     if (!publicationDate) publicationDate = this.notFoundMsg;
 
-        return book;
-    }
+    //     return publicationDate;
+    // }
 
-    parseDescription() {
-        let description = this.contentsNodeList[4].children[1].textContent;
+    // parseBook() {
+    //     let book = this.contentsNodeList[2].children[1].textContent;
 
-        if (!description) description = this.notFoundMsg;
+    //     if (!book) book = this.notFoundMsg;
 
-        return description;
-    }
+    //     return book;
+    // }
 
-    parseTotalCitations() {
-        let totalCitations = parseInt(this.contentsNodeList[5].children[1].children[0].textContent.match(/\d+/)[0]);
+    // parseDescription() {
+    //     let description = this.contentsNodeList[4].children[1].textContent;
 
-        if (!totalCitations) totalCitations = this.notFoundMsg;
+    //     if (!description) description = this.notFoundMsg;
 
-        return totalCitations;
-    }
+    //     return description;
+    // }
+
+    //parseTotalCitations() {
+    //    let totalCitations = this.contentsNodeList[5].children[1].children[0];
+
+    //    if (!totalCitations) totalCitations = this.notFoundMsg;
+    //    //parseInt(totalCitations.textContent.match(/\d+/)[0])
+
+    //    return totalCitations;
+    //}
 }

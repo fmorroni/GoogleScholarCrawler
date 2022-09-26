@@ -2,7 +2,7 @@
 ```
 getUserId(authorName)
 ```
-Searches for `authorName` at https://scholar.google.com/citations?view_op=search_authors. 
+Returns author ID by searching for `authorName` at https://scholar.google.com/citations?view_op=search_authors. 
 If more than one author matches `authorName`, then the first one of the list is chosen.
 If there is no match then an error is thrown.
 
