@@ -3,7 +3,8 @@ import makeRequest from './makeRequest.js';
 export default async function getUserId(username) {
   try {
     let domain = 'https://scholar.google.com';
-    let requestUrl = `${domain}/citations?view_op=search_authors&mauthors=${username}`;
+    let language = 'en';
+    let requestUrl = `${domain}/citations?view_op=search_authors&mauthors=${username}&hl=${language}`;
     const document = await makeRequest(requestUrl);
     let userId = document.querySelector('a[href*="user"]:not([class])');
     if (userId) {
