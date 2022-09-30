@@ -36,27 +36,27 @@ export class ArticleParser {
     }
   }
 
-  verify(value) {
-    return value ? value : this.notFoundMsg;
+  verify(value, property) {
+    return value[property] ? value[property] : this.notFoundMsg;
   }
 
   parseTitle() {
     let title = this.articleDom.querySelector('div[id*="title"]').lastChild;
     if (!title) title = this.articleDom.querySelector('div[id*="title"]').textContent;
 
-    this.article.title = this.verify(title.textContent);
+    this.article.title = this.verify(title, 'textContent');
   }
 
   parseArticleLink() {
     let articleLink = this.articleDom.querySelector('a[class*="title"]');
 
-    this.article.articleLink = this.verify(articleLink.href);
+    this.article.articleLink = this.verify(articleLink, 'href');
   }
 
   parsePdfLink() {
     let pdfLink = this.articleDom.querySelector('div[class*="title"] > a');
 
-    this.article.pdfLink = this.verify(pdfLink.href);
+    this.article.pdfLink = this.verify(pdfLink, 'href');
   }
 
   parseContents() {
