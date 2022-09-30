@@ -37,7 +37,7 @@ export class ArticleParser {
   }
 
   verify(value, property) {
-    return value[property] ? value[property] : this.notFoundMsg;
+    return value ? value[property] : this.notFoundMsg;
   }
 
   parseTitle() {
@@ -62,12 +62,19 @@ export class ArticleParser {
   parseContents() {
     // let specialCases = new Set(['Total citations', 'Scholar articles'])
     for (let node of this.contentsNodeList) {
-      let key = node.children[0].textContent;
-      if (!/total\s?citations/i.test(key) && !/scholar\s?articles/i.test(key)) {
+      let key = this.formatKey(node.children[0].textContent);
+      if (!/totalCitations/.test(key) && !/scholar\s?articles/i.test(key)) {
         this.article[key] = node.children[1].textContent;
-      } else if (/total\s?citations/i.test(key)) {
+      } else if (/totalCitations/.test(key)) {
         this.article[key] = parseInt(node.children[1].children[0].textContent.match(/\d+/));
       }
     }
+  }
+
+  formatKey(key) {
+    key = key.replaceAll(/\s(\w)/g, match => match[1].toUpperCase());
+    key = key.replace(/^\w/, match => match[0].toLowerCase());
+
+    return key;
   }
 }
