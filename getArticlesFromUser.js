@@ -5,7 +5,7 @@ import createLog from './createLog.js';
 async function getArticlesFromUser(username) {
   try {
     let citationLinks = await getArticlesURL(username);
-    const batchSize = 5;
+    const batchSize = 2;
     let articles = [];
     while (citationLinks.length) {
       let articleBatch = await parseArticleBatch(citationLinks.splice(0, batchSize));
@@ -29,6 +29,7 @@ async function parseArticleBatch(citationLinks) {
   }
 
   const delay = randDelay(5, 20); // Random delay between 5 and 20 seconds.
+  console.log(`Delay: ${delay/1000}s`);
   // The timeout here will make sure every batch takes at least $delay ms to complete.
   // This is done to (hopefully) avoid triggering google scholar's bot detection.
   let promisedArticles = await Promise.allSettled([...promises, timeout(delay)]);

@@ -20,17 +20,17 @@ function parseHeaders() {
   // Directly copied from a real user request.
   // Without headers Google Scholar was blocking every request I tried to make.
   let requestHeaders = `:authority: scholar.google.com
-                            :method: GET
-                            :scheme: https
-                            accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
-                            accept-encoding: gzip, deflate, br
-                            accept-language: en-US,en;q=0.5
-                            cache-control: max-age=0
-                            sec-fetch-dest: document
-                            sec-fetch-mode: navigate
-                            sec-gpc: 1
-                            upgrade-insecure-requests: 1
-                            user-agent: ${randomUserAgent()};
+                        :method: GET
+                        :scheme: https
+                        accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
+                        accept-encoding: gzip, deflate, br
+                        accept-language: en-US,en;q=0.5
+                        cache-control: max-age=0
+                        sec-fetch-dest: document
+                        sec-fetch-mode: navigate
+                        sec-gpc: 1
+                        upgrade-insecure-requests: 1
+                        user-agent: ${randomUserAgent()}`;
   requestHeaders = requestHeaders.trim().split('\n');
   let myHeaders = new Headers();
   if (requestHeaders != '') {
