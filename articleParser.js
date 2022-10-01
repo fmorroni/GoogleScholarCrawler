@@ -3,7 +3,8 @@ import makeRequest from './makeRequest.js';
 export class Article {
   constructor() {
     this.title;
-    this.articleLink;
+    this.scholarUrl;
+    this.externalArticleUrl;
     this.pdfLink;
     this.totalCitations;
   }
@@ -12,7 +13,7 @@ export class Article {
 export class ArticleParser {
   constructor() {
     this.articleDom;
-    this.article;
+    this.article = new Article();
     this.contentsNodeList;
     this.notFoundMsg = '<Value not found.>';
   }
@@ -21,7 +22,7 @@ export class ArticleParser {
     try {
       this.articleDom = await makeRequest(articleUrl);
 
-      this.article = new Article();
+      this.article.scholarUrl = articleUrl;
       this.parseTitle();
       this.parseArticleLink();
       this.parsePdfLink();
@@ -48,9 +49,9 @@ export class ArticleParser {
   }
 
   parseArticleLink() {
-    let articleLink = this.articleDom.querySelector('a[class*="title"]');
+    let externalArticleUrl = this.articleDom.querySelector('a[class*="title"]');
 
-    this.article.articleLink = this.verify(articleLink, 'href');
+    this.article.externalArticleUrl = this.verify(externalArticleUrl, 'href');
   }
 
   parsePdfLink() {
