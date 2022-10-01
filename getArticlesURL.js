@@ -6,7 +6,6 @@ export default async function getArticlesURL(username) {
     let userId = await getUserId(username);
     console.log(username + ': ' + userId);
     let domain = 'https://scholar.google.com';
-    let language = 'en';
     let pageStart = 0;
     // 100 is the maximum google scholar will send for each request.
     let pageSize = 100;
@@ -14,7 +13,7 @@ export default async function getArticlesURL(username) {
 
     let articlesLeft;
     do {
-      let requestUrl = `${domain}/citations?user=${userId}&cstart=${pageStart}&pagesize=${pageSize}&hl=${language}`;
+      let requestUrl = `${domain}/citations?user=${userId}&hl=${language}&oi=ao&cstart=${pageStart}&pagesize=${pageSize}`;
       pageStart += pageSize;
 
       const document = await makeRequest(requestUrl);
