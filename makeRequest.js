@@ -1,9 +1,11 @@
 import fetch, { Request, Headers } from 'node-fetch';
 import { JSDOM } from 'jsdom';
 
+const language = 'en';
+
 export default async function makeRequest(requestUrl) {
   try {
-    const myRequest = new Request(requestUrl, { headers: parseHeaders() });
+    const myRequest = new Request(requestUrl, { headers: parseHeaders(requestUrl) });
     const response = await fetch(myRequest);
     let document = new JSDOM(await response.text()).window.document;
     if (/(unusual traffic)|(tráfico inusual)/.test(document.body.textContent)) {
@@ -16,32 +18,17 @@ export default async function makeRequest(requestUrl) {
   }
 }
 
-function parseHeaders() {
+function parseHeaders(requestUrl) {
   // Directly copied from a real user request.
   // Without headers Google Scholar was blocking every request I tried to make.
-  let requestHeaders = `:authority: scholar.google.com
-                        :method: GET
-                        :scheme: https
-                        accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8
-                        accept-encoding: gzip, deflate, br
-                        accept-language: en-US,en;q=0.5
-                        cache-control: max-age=0
-                        sec-fetch-dest: document
-                        sec-fetch-mode: navigate
-                        sec-gpc: 1
-                        upgrade-insecure-requests: 1
-                        user-agent: ${randomUserAgent()}`;
-  requestHeaders = requestHeaders.trim().split('\n');
+  // referer: https://scholar.google.com/citations?user=${userId}&hl=${language}&oi=sra
+
   let myHeaders = new Headers();
-  if (requestHeaders != '') {
-    for (let header of requestHeaders) {
-      header = header.trim();
-      if (header[0] == ':') {
-        header = header.replace(':', '');
-      }
-      header = header.split(': ');
-      myHeaders.append(header[0], header[1]);
-    }
+  myHeaders.append('user-agent', randomUserAgent());
+  let userId = requestUrl.match(/user=([^&]*)/);
+  if (userId) {
+    userId = userId[1];
+    myHeaders.append('referer', `https://scholar.google.com/citations?user=${userId}&hl=${language}&oi=sra`)
   }
 
   return myHeaders;
