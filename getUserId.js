@@ -7,7 +7,7 @@ export default async function getUserId(username) {
     const document = await makeRequest(requestUrl);
     let userId = document.querySelector('a[href*="user"]:not([class])');
     if (userId) {
-      return Promise.resolve(userId.href.match(/(?<=user=)[a-zA-zj0-9-]*/)[0]);
+      return Promise.resolve(userId.href.match(/user=([^&]*)/)[1]);
     } else {
       throw (new Error('No user found.'));
     }
