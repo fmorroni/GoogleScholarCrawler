@@ -1,5 +1,6 @@
 import { ArticleParser } from './articleParser.js';
 import getArticlesURL from './getArticlesURL.js';
+import { randDelay } from './delay.js';
 import createLog from './createLog.js';
 
 async function getArticlesFromUser(username) {
@@ -40,18 +41,6 @@ async function parseArticleBatch(citationLinks) {
   });
 
   return articles;
-}
-
-function timeout(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-function randDelay(min, max) {
-  min = min*1000;
-  max = max*1000;
-  let delay = Math.random()*(max-min) + min;
-
-  return delay;
 }
 
 /* Researcher names for testing
