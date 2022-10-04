@@ -11,15 +11,19 @@ import createLog from './createLog.js';
 */
 
 async function main(username, years=[]) {
-  let userId = await getUserId(username);
-  console.log(username + ': ' + userId);
+  try {
+    let userId = await getUserId(username);
+    console.log(username + ': ' + userId);
 
-  let articleURLs = await getArticleURLs(userId, years);
-  createLog('./logs', articleURLs, 'json');
+    let articleURLs = await getArticleURLs(userId, years);
+    createLog('./logs', articleURLs, 'json');
 
-  let articles = await getArticlesFromUser(articleURLs);
-  createLog('./logs', articles, 'json');
-  console.log(articles);
+    let articles = await getArticlesFromUser(articleURLs);
+    createLog('./logs', articles, 'json');
+    console.log(articles);
+  } catch (error) {
+    console.error(error); 
+  }
 }
 
 main('carlos gustavo lopez pombo', [2019]);
