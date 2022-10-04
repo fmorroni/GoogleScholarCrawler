@@ -2,6 +2,7 @@ import makeRequest from './makeRequest.js';
 
 export class Article {
   constructor() {
+    this.id;
     this.title;
     this.scholarUrl;
     this.externalArticleUrl;
@@ -22,6 +23,7 @@ export class ArticleParser {
     try {
       this.articleDom = await makeRequest(articleUrl);
 
+      this.article.id = articleUrl.match(/citation_for_view=[^:]*:([^&]*)/)[1];
       this.article.scholarUrl = articleUrl;
       this.parseTitle();
       this.parseArticleLink();
