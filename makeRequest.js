@@ -1,11 +1,11 @@
 import fetch, { Request, Headers } from 'node-fetch';
 import { JSDOM } from 'jsdom';
 
-const language = 'en';
+export const language = 'en';
 
 export default async function makeRequest(requestUrl) {
   try {
-    const myRequest = new Request(requestUrl, { headers: parseHeaders(requestUrl) });
+    const myRequest = new Request(requestUrl)//, { headers: parseHeaders(requestUrl) });
     const response = await fetch(myRequest);
     let document = new JSDOM(await response.text()).window.document;
     if (/(unusual traffic)|(tráfico inusual)/.test(document.body.textContent)) {

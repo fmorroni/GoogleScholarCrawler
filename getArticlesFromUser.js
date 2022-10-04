@@ -1,20 +1,15 @@
 import { ArticleParser } from './articleParser.js';
-import getArticleURLs from './getArticlesURL.js';
 import { randDelay } from './delay.js';
-import createLog from './createLog.js';
 
-async function getArticlesFromUser(username) {
+export default async function getArticlesFromUser(articleURLs) {
   try {
-    let articleURLs = await getArticleURLs(username);
-    const batchSize = 2;
+    const batchSize = 1;
     let articles = [];
     while (articleURLs.length) {
       let articleBatch = await parseArticleBatch(articleURLs.splice(0, batchSize));
       articles = articles.concat(articleBatch);
       console.log('Number of articles parsed: ', articles.length);
     }
-
-    createLog('./logs', articles, 'json');
 
     return Promise.resolve(articles);
   } catch (error) {
@@ -31,8 +26,8 @@ async function parseArticleBatch(articleURLs) {
 
   // The timeout here will make sure every batch takes at least $delay ms to complete.
   // This is done to (hopefully) avoid triggering google scholar's bot detection.
-  let promisedArticles = await Promise.allSettled([...promises, randDelay(20, 60)]);
-  let delay = Math.floor(promisedArticles.pop().value);
+  let promisedArticles = await Promise.allSettled([...promises, randDelay(40, 90)]);
+  let delay = Math.floor(promisedArticles.pop().value)/1000;
   console.log("Batch delay: ", delay);
   let articles = [];
   promisedArticles.forEach(article => {
@@ -41,18 +36,3 @@ async function parseArticleBatch(articleURLs) {
 
   return articles;
 }
-
-/* Researcher names for testing
-  Marcelo F. Frías (137 articles)
-  Silvyo Ergatis (2 articles)
-  carlos gustavo lopez pombo (54 articles)
-  Juan Pablo Galeotti (77 articles)
-*/
-let articles;
-getArticlesFromUser('carlos gustavo lopez pombo')
-  .then(promisedArticles => {
-    articles = promisedArticles;
-    console.log('Articles: ', articles);
-  })
-  .catch(error => console.error(error));
-

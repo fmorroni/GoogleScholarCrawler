@@ -1,4 +1,4 @@
-import makeRequest from './makeRequest.js';
+import makeRequest, { language } from './makeRequest.js';
 
 export default async function getUserId(username) {
   try {
@@ -15,9 +15,3 @@ export default async function getUserId(username) {
     return Promise.reject(console.error(error));
   }
 }
-
-//let userId;
-//getUserId('carlos gustavo lopez pombo').then(response => {
-    //userId = response;
-    //console.log(userId);
-//});

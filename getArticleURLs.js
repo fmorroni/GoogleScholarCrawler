@@ -1,11 +1,8 @@
-import makeRequest from './makeRequest.js';
-import getUserId from './getUserId.js';
-import { randDelay } from "./delay";
+import makeRequest, { language } from './makeRequest.js';
+import { randDelay } from "./delay.js";
 
-export default async function getArticleURLs(username, years=[]) {
+export default async function getArticleURLs(userId, years=[]) {
   try {
-    let userId = await getUserId(username);
-    console.log(username + ': ' + userId);
     let domain = 'https://scholar.google.com';
     let pageStart = 0;
     // 100 is the maximum google scholar will send for each request.
@@ -27,7 +24,7 @@ export default async function getArticleURLs(username, years=[]) {
       if (articlesLeft) {
         articleNodes.forEach(ele => {
           let year = parseInt(ele.children[2].textContent);
-          if (years == [] || years.includes(year)) {
+          if (years.length === 0 || years.includes(year)) {
             articleURLs.push(domain + ele.querySelector('a').href);
           }
         });
@@ -40,17 +37,3 @@ export default async function getArticleURLs(username, years=[]) {
     return Promise.reject(error);
   }
 }
-
-//let username = 'Marcelo F. Frías';
-//if (process.argv.length > 2) {
-    //username = process.argv[2];
-//}
-//
-//let citationLinks;
-//getArticlesURL(username)
-    //.then(response => {
-    //citationLinks = response;
-    //console.log("Links: ", citationLinks);
-    //console.log("Amount of articles: ", citationLinks.length);
-    //})
-    //.catch(error => console.error(error));
