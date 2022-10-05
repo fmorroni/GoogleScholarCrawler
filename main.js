@@ -2,6 +2,7 @@ import getUserId from './getUserId.js';
 import getArticleURLs from './getArticleURLs.js';
 import getArticlesFromUser from "./getArticlesFromUser.js";
 import createLog from './createLog.js';
+import { User, UserParser } from "./userParser.js"; 
 
 /* Researcher names for testing
   Marcelo F. Frías (137 articles)
@@ -15,15 +16,23 @@ async function main(username, years=[]) {
     let userId = await getUserId(username);
     console.log(username + ': ' + userId);
 
+    let data = {};
+
+    let userParser = new UserParser();
+    let user = await userParser.parseUserProfile(userId);
+    data.userProfile = user;
+
     let articleURLs = await getArticleURLs(userId, years);
-    createLog('./logs', articleURLs, 'json');
+    data.articleURLs = [...articleURLs];
 
     let articles = await getArticlesFromUser(articleURLs);
-    createLog('./logs', articles, 'json');
+    data.articles = articles;
+
+    await createLog('./logs', data, 'json');
     console.log(articles);
   } catch (error) {
     console.error(error); 
   }
 }
 
-main('carlos gustavo lopez pombo', [2019]);
+main('carlos gustavo lopez pombo', []);
