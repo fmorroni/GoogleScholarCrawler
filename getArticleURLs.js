@@ -1,9 +1,9 @@
-import makeRequest, { language } from './makeRequest.js';
-import { randDelay } from "./delay.js";
+import makeRequest from './makeRequest.js';
+import { randDelay } from './delay.js';
+import { domain, language } from './globals.js'
 
-export default async function getArticleURLs(userId, years=[]) {
+export default async function getArticleURLs(userId, years = []) {
   try {
-    let domain = 'https://scholar.google.com';
     let pageStart = 0;
     // 100 is the maximum google scholar will send for each request.
     let pageSize = 100;
@@ -11,7 +11,7 @@ export default async function getArticleURLs(userId, years=[]) {
 
     let articlesLeft;
     do {
-    // https://scholar.google.com/citations?hl=es&user=DGmfF8QAAAAJ&view_op=list_works&sortby=pubdate
+      // https://scholar.google.com/citations?hl=es&user=DGmfF8QAAAAJ&view_op=list_works&sortby=pubdate
       let requestUrl = `${domain}/citations?user=${userId}&hl=${language}&oi=ao&cstart=${pageStart}&pagesize=${pageSize}`;
       pageStart += pageSize;
 

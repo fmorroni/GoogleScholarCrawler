@@ -1,4 +1,5 @@
 import makeRequest, { language } from './makeRequest.js';
+import { domain, language } from './globals.js'
 
 export class User {
   constructor() {
@@ -21,7 +22,6 @@ export class UserParser {
 
   async parseUserProfile(userId) {
     try {
-      let domain = 'https://scholar.google.com';
       let userProfileUrl = `${domain}/citations?user=${userId}&hl=${language}`;
 
       this.document = await makeRequest(userProfileUrl);

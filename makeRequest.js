@@ -1,7 +1,6 @@
 import fetch, { Request, Headers } from 'node-fetch';
 import { JSDOM } from 'jsdom';
-
-export const language = 'en';
+import { language } from './globals.js'
 
 export default async function makeRequest(requestUrl) {
   try {
