@@ -1,49 +1,42 @@
 import makeRequest from './makeRequest.js';
-import {randDelay} from './delay.js'
-import {domain, language} from './globals.js'
+import { randDelay } from './delay.js';
+import { institutionURL } from './globals.js';
 
 export default async function getIDsFromInstitution(institutionURL) {
-
+  try {
+    console.log('Waiting for first page...');
     let document = await makeRequest(institutionURL);
-    console.log(document);
-    let IDs = [];
-    let buttons = document.querySelectorAll('button[type="button"]')
-    let button = buttons[buttons.length-1];
-    let lastPage = false;
+    let userIDs = [];
+    let nextPageButton = { disabled: false };
+    while (!nextPageButton.disabled) {
+      let usersInPage = document.querySelectorAll('h3 > a[href*="user"]');
 
-    while(!lastPage) {
-        
-        await randDelay(3,5);
-        
-        let usersInPage = document.querySelectorAll('h3 > a[href*="user"]');
-        
-        usersInPage.forEach(user => {
-            let userID = user.href.match("user=([^&]*)")[1];
-            console.log(userID);
-            IDs.push(userID);
-        });
-        
-        if(!button.disabled) {    
-            // siguiente pagina
-            document = await makeRequest(getNextURL(button));
-            // actualizo el boton
-            buttons = document.querySelectorAll('button[type="button"]')
-            button = buttons[buttons.length-1];
-            console.log("Next page.")
-        }
-        else {
-            lastPage = true;
-        }
+      usersInPage.forEach(user => {
+        userIDs.push(user.href.match("user=([^&]*)")[1]);
+        console.log(user.href.match("user=([^&]*)")[1]);
+      });
+
+      let pageButtons = document.querySelectorAll('button[type="button"]');
+      nextPageButton = pageButtons[pageButtons.length - 1];
+      if (!nextPageButton.disabled) {
+        console.log('Waiting for next page...');
+        await randDelay(3, 5);
+        document = await makeRequest(getNextPageURL(nextPageButton));
+      } else {
+        console.log('No more pages.');
+      }
     }
+    console.log("Number of IDs found: ", userIDs.length);
 
-    console.log("Cantidad de IDs encontrados: ", IDs.length);
-    return IDs;
+    return Promise.resolve(userIDs);
+  } catch (error) {
+    return Promise.reject(error);
+  }
 }
 
-function getNextURL(button) {
-    let afterAuthor = button.outerHTML.match(/after_author\\x3d(.*?)\\/)[1];
-    let astart = button.outerHTML.match(/astart\\x3d(.*?)'/)[1];
-    console.log(astart);
-    let nextURL = `${domain}/citations?view_op=view_org&hl=${language}&org=16159832269951878529&after_author=${afterAuthor}&astart=${astart}`;
-    return nextURL;
+function getNextPageURL(button) {
+  let afterAuthor = button.outerHTML.match(/after_author\\x3d(.*?)\\/)[1];
+  let astart = button.outerHTML.match(/astart\\x3d(.*?)'/)[1];
+  let nextURL = `${institutionURL}&after_author=${afterAuthor}&astart=${astart}`;
+  return nextURL;
 }
