@@ -2,6 +2,8 @@
   "type": "module",
   "dependencies": {
     "jsdom": "^20.0.0",
-    "node-fetch": "^3.2.10"
+    "node-fetch": "^3.2.10",
+    "sequelize": "^6.25.1",
+    "sqlite3": "^5.1.2"
   }
 }
