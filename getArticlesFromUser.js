@@ -1,5 +1,6 @@
 import { ArticleParser } from './articleParser.js';
 import { randDelay } from './delay.js';
+import { bigDelay } from './globals.js';
 
 export default async function getArticlesFromUser(articleURLs) {
   try {
@@ -26,7 +27,7 @@ async function parseArticleBatch(articleURLs) {
 
   // The timeout here will make sure every batch takes at least $delay ms to complete.
   // This is done to (hopefully) avoid triggering google scholar's bot detection.
-  let promisedArticles = await Promise.allSettled([...promises, randDelay(40, 90)]);
+  let promisedArticles = await Promise.allSettled([...promises, randDelay(...bigDelay)]);
   let delay = Math.floor(promisedArticles.pop().value)/1000;
   console.log("Batch delay: ", delay);
   let articles = [];

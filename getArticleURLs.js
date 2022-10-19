@@ -1,6 +1,6 @@
 import makeRequest from './makeRequest.js';
 import { randDelay } from './delay.js';
-import { domain, language } from './globals.js'
+import { domain, language, smallDelay } from './globals.js'
 
 export default async function getArticleURLs(userId, years = []) {
   try {
@@ -29,7 +29,7 @@ export default async function getArticleURLs(userId, years = []) {
           }
         });
       }
-      await randDelay(5, 10);
+      await randDelay(...smallDelay);
     } while (articlesLeft);
 
     return Promise.resolve(articleURLs);
