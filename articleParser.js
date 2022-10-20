@@ -2,13 +2,11 @@ import makeRequest from './makeRequest.js';
 
 export class Article {
   constructor() {
+    this.id;
     this.title;
-    this.articleLink;
+    this.scholarUrl;
+    this.externalArticleUrl;
     this.pdfLink;
-    this.authors;
-    this.publicationDate;
-    this.book;
-    this.description;
     this.totalCitations;
   }
 }
@@ -16,102 +14,70 @@ export class Article {
 export class ArticleParser {
   constructor() {
     this.articleDom;
+    this.article = new Article();
     this.contentsNodeList;
-    this.isComplete;
     this.notFoundMsg = '<Value not found.>';
   }
 
   async generateArticle(articleUrl) {
     try {
       this.articleDom = await makeRequest(articleUrl);
-      this.isComplete = Boolean(this.articleDom.querySelector('a[class*="title"]'));
 
-      let article = new Article();
-      article.title = this.parseTitle();
-      if (!this.isComplete) throw (new Error(`\nArticle \n--- ${article.title} ---\nat \n${articleUrl}\n is missing information. Skiping.`));
-
-      article.articleLink = this.parseArticleLink();
-      article.pdfLink = this.parsePdfLink();
+      this.article.id = articleUrl.match(/citation_for_view=[^:]*:([^&]*)/)[1];
+      this.article.scholarUrl = articleUrl;
+      this.parseTitle();
+      this.parseArticleLink();
+      this.parsePdfLink();
 
       this.contentsNodeList = this.articleDom.querySelector('div[id*="table"').querySelectorAll(':scope > div');
+      this.parseContents();
 
-      article.authors = this.parseAuthors();
-
-      article.publicationDate = this.parsePublicationDate();
-      article.book = this.parseBook();
-      article.description = this.parseDescription();
-      article.totalCitations = this.parseTotalCitations();
-
-      return Promise.resolve(article);
+      return Promise.resolve(this.article);
     } catch (error) {
       //console.error('Error while parsing article at ' + articleUrl, error);
       return Promise.reject(error);
     }
   }
 
+  verify(value, property) {
+    return value ? value[property] : this.notFoundMsg;
+  }
+
   parseTitle() {
-    let title = this.isComplete ?
-      this.articleDom.querySelector('a[class*="title"]').textContent :
-      this.articleDom.querySelector('div[id*="title"]').textContent;
+    let title = this.articleDom.querySelector('div[id*="title"]').lastChild;
+    if (!title) title = this.articleDom.querySelector('div[id*="title"]').textContent;
 
-    if (!title) title = this.notFoundMsg;
-
-    return title;
+    this.article.title = this.verify(title, 'textContent');
   }
 
   parseArticleLink() {
-    let articleLink = this.articleDom.querySelector('a[class*="title"]').href;
+    let externalArticleUrl = this.articleDom.querySelector('a[class*="title"]');
 
-    if (!articleLink) articleLink = this.notFoundMsg;
-
-    return articleLink;
+    this.article.externalArticleUrl = this.verify(externalArticleUrl, 'href');
   }
 
   parsePdfLink() {
-    let pdfLink = this.articleDom.querySelector('div[class*="title"]').children[0].href;
+    let pdfLink = this.articleDom.querySelector('div[class*="title"] > a');
 
-    if (!pdfLink) pdfLink = this.notFoundMsg;
-
-    return pdfLink;
+    this.article.pdfLink = this.verify(pdfLink, 'href');
   }
 
-  parseAuthors() {
-    let authors = this.contentsNodeList[0].children[1].textContent.split(', ');
-
-    if (!authors) authors = this.notFoundMsg;
-
-    return authors;
+  parseContents() {
+    // let specialCases = new Set(['Total citations', 'Scholar articles'])
+    for (let node of this.contentsNodeList) {
+      let key = this.formatKey(node.children[0].textContent);
+      if (!/totalCitations/.test(key) && !/scholar\s?articles/i.test(key)) {
+        this.article[key] = node.children[1].textContent;
+      } else if (/totalCitations/.test(key)) {
+        this.article[key] = parseInt(node.children[1].children[0].textContent.match(/\d+/));
+      }
+    }
   }
 
-  parsePublicationDate() {
-    let publicationDate = this.contentsNodeList[1].children[1].textContent;
+  formatKey(key) {
+    key = key.replaceAll(/\s(\w)/g, match => match[1].toUpperCase());
+    key = key.replace(/^\w/, match => match[0].toLowerCase());
 
-    if (!publicationDate) publicationDate = this.notFoundMsg;
-
-    return publicationDate;
-  }
-
-  parseBook() {
-    let book = this.contentsNodeList[2].children[1].textContent;
-
-    if (!book) book = this.notFoundMsg;
-
-    return book;
-  }
-
-  parseDescription() {
-    let description = this.contentsNodeList[4].children[1].textContent;
-
-    if (!description) description = this.notFoundMsg;
-
-    return description;
-  }
-
-  parseTotalCitations() {
-    let totalCitations = parseInt(this.contentsNodeList[5].children[1].children[0].textContent.match(/\d+/)[0]);
-
-    if (!totalCitations) totalCitations = this.notFoundMsg;
-
-    return totalCitations;
+    return key;
   }
 }

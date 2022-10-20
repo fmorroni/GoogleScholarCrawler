@@ -1,14 +1,13 @@
 import makeRequest from './makeRequest.js';
+import { domain, language } from './globals.js'
 
 export default async function getUserId(username) {
   try {
-    let domain = 'https://scholar.google.com';
-    let language = 'en';
-    let requestUrl = `${domain}/citations?view_op=search_authors&mauthors=${username}&hl=${language}`;
+    let requestUrl = `${domain}/citations?hl=${language}&view_op=search_authors&mauthors=${username}&btnG=`;
     const document = await makeRequest(requestUrl);
     let userId = document.querySelector('a[href*="user"]:not([class])');
     if (userId) {
-      return Promise.resolve(userId.href.match(/(?<=user=)[a-zA-zj0-9-]*/)[0]);
+      return Promise.resolve(userId.href.match(/user=([^&]*)/)[1]);
     } else {
       throw (new Error('No user found.'));
     }
@@ -16,9 +15,3 @@ export default async function getUserId(username) {
     return Promise.reject(console.error(error));
   }
 }
-
-//let userId;
-//getUserId('carlos gustavo lopez pombo').then(response => {
-    //userId = response;
-    //console.log(userId);
-//});
