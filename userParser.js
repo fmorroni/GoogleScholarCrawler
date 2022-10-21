@@ -1,4 +1,4 @@
-import makeRequest, { language } from './makeRequest.js';
+import makeRequest from './makeRequest.js';
 import { domain, language } from './globals.js'
 
 export class User {
@@ -14,9 +14,9 @@ export class User {
 
 export class UserParser {
   constructor() {
-    this.document;
+    this.document = null;
     this.user = new User();
-    this.contentsNodeList;
+    this.contentsNodeList = null;
     this.notFoundMsg = '<Value not found.>';
   }
 
@@ -32,15 +32,24 @@ export class UserParser {
       let userData = this.document.querySelectorAll('div[role="main"]')[1].children[0].lastChild.children;
       this.user.name = userData[0].textContent;
       this.user.affiliations = userData[1].textContent.split(', ');
-      this.user.emailDomain = userData[2].textContent.match(/at (.*) -/)[1];
+      this.user.emailDomain = userData[2].textContent.match(/at (.*)\s?-?/)[1];
       for (let interest of userData[3].children) {
         this.user.interests.push(interest.textContent);
       }
 
-      return Promise.resolve(this.user);
     } catch (error) {
       //console.error('Error while parsing article at ' + articleUrl, error);
       return Promise.reject(error);
     }
+  }
+
+  reset() {
+    this.user = new User();
+  }
+
+  getProfile() {
+    let profile = this.user;
+    this.reset();
+    return profile;
   }
 }
