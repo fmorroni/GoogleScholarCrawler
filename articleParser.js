@@ -2,12 +2,12 @@ import makeRequest from './makeRequest.js';
 
 export class Article {
   constructor() {
-    this.id;
-    this.title;
-    this.scholarUrl;
-    this.externalArticleUrl;
-    this.pdfLink;
-    this.totalCitations;
+    this.id = null;
+    this.title = null;
+    this.scholarUrl = null;
+    this.externalArticleUrl = null;
+    this.pdfLink = null;
+    this.totalCitations = 0;
   }
 }
 
@@ -29,7 +29,7 @@ export class ArticleParser {
       this.parseArticleLink();
       this.parsePdfLink();
 
-      this.contentsNodeList = this.articleDom.querySelector('div[id*="table"').querySelectorAll(':scope > div');
+      this.contentsNodeList = this.articleDom.querySelectorAll('div[id*="table"] > div');
       this.parseContents();
 
       return Promise.resolve(this.article);
@@ -62,6 +62,10 @@ export class ArticleParser {
     this.article.pdfLink = this.verify(pdfLink, 'href');
   }
 
+  parseTotalCitations() {
+
+  }
+
   parseContents() {
     // let specialCases = new Set(['Total citations', 'Scholar articles'])
     for (let node of this.contentsNodeList) {
@@ -69,7 +73,7 @@ export class ArticleParser {
       if (!/totalCitations/.test(key) && !/scholar\s?articles/i.test(key)) {
         this.article[key] = node.children[1].textContent;
       } else if (/totalCitations/.test(key)) {
-        this.article[key] = parseInt(node.children[1].children[0].textContent.match(/\d+/));
+        this.article.totalCitations = parseInt(node.children[1].children[0].textContent.match(/\d+/));
       }
     }
   }
