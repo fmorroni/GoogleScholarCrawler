@@ -12,8 +12,7 @@ export default async function getIDsFromInstitution(institutionURL) {
       let usersInPage = document.querySelectorAll('h3 > a[href*="user"]');
 
       usersInPage.forEach(user => {
-        userIDs.push(user.href.match("user=([^&]*)")[1]);
-        console.log(user.href.match("user=([^&]*)")[1]);
+        userIDs.push(user.href.match(/user=([^&]*)/)[1]);
       });
 
       let pageButtons = document.querySelectorAll('button[type="button"]');
