@@ -1,6 +1,6 @@
 import makeRequest from './makeRequest.js';
 import { randDelay } from './delay.js';
-import { domain, language, smallDelay } from './globals.js'
+import { domain, language, smallDelay, mediumDelay } from './globals.js'
 
 export default async function getArticleURLs(userId, years = []) {
   try {
@@ -8,6 +8,8 @@ export default async function getArticleURLs(userId, years = []) {
     // 100 is the maximum google scholar will send for each request.
     let pageSize = 100;
     let articleURLs = [];
+    // Had to add this in order to check article repetition between users.
+    let articleNames = [];
 
     let articlesLeft;
     do {
@@ -25,14 +27,15 @@ export default async function getArticleURLs(userId, years = []) {
         articleNodes.forEach(ele => {
           let year = parseInt(ele.children[2].textContent);
           if (years.length === 0 || years.includes(year)) {
-            articleURLs.push(domain + ele.querySelector('a').href);
+            articleURLs.push(domain + ele.children[0].querySelector('a').href);
+            articleNames.push(ele.children[0].querySelector('a').textContent);
           }
         });
       }
-      await randDelay(...smallDelay);
+      await randDelay(...mediumDelay);
     } while (articlesLeft);
 
-    return Promise.resolve(articleURLs);
+    return Promise.resolve({ urls: articleURLs, names: articleNames });
   } catch (error) {
     return Promise.reject(error);
   }
