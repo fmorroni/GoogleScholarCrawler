@@ -2,9 +2,9 @@ import getUserId from './getUserId.js';
 import getArticleURLs from './getArticleURLs.js';
 import getArticlesFromURLs from "./getArticlesFromURLs.js";
 import getIDsFromInstitution from "./getIDsFromInstitution.js"
+import UserParser from "./userParser.js";
 import { institutionURL } from './globals.js';
 import createLog from './createLog.js';
-import { UserParser } from "./userParser.js";
 
 /* Researcher names for testing
   Marcelo F. Frías (137 articles)

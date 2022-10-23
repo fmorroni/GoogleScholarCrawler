@@ -1,7 +1,7 @@
 import makeRequest from './makeRequest.js';
 import { domain, language } from './globals.js'
 
-export class User {
+class User {
   constructor() {
     this.id;
     this.profileUrl;
@@ -12,7 +12,7 @@ export class User {
   }
 }
 
-export class UserParser {
+export default class UserParser {
   constructor() {
     this.document = null;
     this.user = new User();
