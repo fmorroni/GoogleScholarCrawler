@@ -2,7 +2,7 @@ import makeRequest from './makeRequest.js';
 import { randDelay } from './delay.js';
 import { institutionURL, smallDelay } from './globals.js';
 
-export default async function getIDsFromInstitution(institutionURL) {
+export default async function getUserIDsFromInstitution(institutionURL) {
   try {
     // console.log('Waiting for first page...');
     let document = await makeRequest(institutionURL);
@@ -29,6 +29,7 @@ export default async function getIDsFromInstitution(institutionURL) {
 
     return Promise.resolve(userIDs);
   } catch (error) {
+    console.log('Error in getUserIDsFromInstitution.');
     return Promise.reject(error);
   }
 }

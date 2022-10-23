@@ -1,7 +1,7 @@
 import getUserId from './getUserId.js';
 import getArticleURLs from './getArticleURLs.js';
 import getArticlesFromURLs from "./getArticlesFromURLs.js";
-import getIDsFromInstitution from "./getIDsFromInstitution.js"
+import getUserIDsFromInstitution from "./getIDsFromInstitution.js"
 import UserParser from "./userParser.js";
 import { institutionURL } from './globals.js';
 import createLog from './createLog.js';
@@ -20,7 +20,7 @@ async function main(years = []) {
     let articleNamesNoRepeat = [];
 
     let userParser = new UserParser();
-    for (let userId of await getIDsFromInstitution(institutionURL)) {
+    for (let userId of await getUserIDsFromInstitution(institutionURL)) {
       console.log('Parsing new user', userId);
       await userParser.parseUserProfile(userId); // esto como que agrega una request más por user, I don't like that...
       let user = userParser.getProfile();
@@ -49,7 +49,7 @@ async function main(years = []) {
     await createLog('./logs', data, 'json');
     // console.log(articles);
   } catch (error) {
-    console.error(error);
+    console.error('In main: ', error);
   }
 }
 
