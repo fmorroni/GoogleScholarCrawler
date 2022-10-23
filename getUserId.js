@@ -9,7 +9,7 @@ export default async function getUserId(username) {
     if (userId) {
       return Promise.resolve(userId.href.match(/user=([^&]*)/)[1]);
     } else {
-      throw (new Error('No user found.'));
+      throw new Error('No user found.');
     }
   } catch (error) {
     return Promise.reject(console.error(error));

@@ -9,7 +9,7 @@ export default async function makeRequest(requestUrl) {
     let document = new JSDOM(await response.text()).window.document;
     if (/(unusual traffic)|(tráfico inusual)/.test(document.body.textContent)) {
       console.log('EMPEZÓ A BLOQUEAR!!!');
-      throw (new Error(`Blocked at ${myRequest.url} by google scholar for unusual traffic.`));
+      throw new Error(`Blocked at ${myRequest.url} by google scholar for unusual traffic.`);
     }
     return Promise.resolve(document);
   } catch (error) {
