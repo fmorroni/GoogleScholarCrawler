@@ -36,10 +36,10 @@ export default async function getArticleURLs(userId, years = []) {
           }
         });
       }
-      await randDelay(...mediumDelay);
+      await randDelay(...smallDelay);
     } while (articlesLeft);
 
-    return Promise.resolve({ urls: articleURLs, ids: articleHashes });
+    return Promise.resolve({ articleURLs: articleURLs, articleHashes: articleHashes });
   } catch (error) {
     console.log('At getArticleURLs.');
     return Promise.reject(error);

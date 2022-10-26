@@ -25,21 +25,23 @@ async function readCache(fileName) {
   try {
     await fs.access(file);
     let obj = await fs.readFile(file, { encoding: 'utf-8' });
-    try {
-      obj = JSON.parse(obj);
-    } catch (err) {
-      console.log('In "' + file + '" format not json.');
-      let newFile = dir + fileName + '.wrong_format';
-      console.log('Contents moved to ' + newFile);
-      await fs.writeFile(newFile, obj);
-      await fs.writeFile(file, '');
-      return null;
+    if (obj !== '') {
+      try {
+        obj = JSON.parse(obj);
+        return obj;
+      } catch (err) {
+        console.log('In "' + file + '" format not json.');
+        let newFile = dir + fileName + '.wrong_format';
+        console.log('Contents moved to ' + newFile);
+        await fs.writeFile(newFile, obj);
+        await fs.writeFile(file, '');
+      }
     }
-    return obj;
+    return null;
   } catch (err) {
     if (err.code === 'ENOENT') {
       console.log('No cache for ', file);
-      console.log('Creating ' + file + '...');
+      console.log('Creating cahce file ' + file + '...');
       await fs.writeFile(file, '');
       return null;
     } else {

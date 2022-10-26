@@ -45,14 +45,14 @@ async function main(years = []) {
       let articleIDsNoRepeat = [];
 
       for (let i = 0; i < userIDs.length; ++i) {
-        console.log(`Getting ${data.userProfiles[i].name}'s article links, ${userIDs.length - i} remaining...`);
-        let { urls: articleURLs, ids: articleIDs } = await getArticleURLs(userId, years);
-        // console.log('All articles', articleURLs, articleIDs);
+        console.log(`Getting ${data.userProfiles[i].name}'s article links, ${userIDs.length - i} users remaining...`);
+        let { articleURLs, articleHashes } = await getArticleURLs(userIDs[i], years);
+        console.log('Found ' + articleURLs.length + ' articles from user.');
         articleURLs = articleURLs.filter((url, index) => {
-          if (articleIDsNoRepeat.includes(articleIDs[index])) {
+          if (articleIDsNoRepeat.includes(articleHashes[index])) {
             return false;
           } else {
-            articleIDsNoRepeat.push(articleIDs[index]);
+            articleIDsNoRepeat.push(articleHashes[index]);
             return true;
           }
         });
@@ -77,8 +77,19 @@ async function main(years = []) {
     console.log('Error caught. Caching results up to the error...');
     data.parsedArticles = data.parsedArticles.concat(dataUpToError.parsedArticles);
     data.articleURLs = dataUpToError.unparsedURLs;
-    await cache.cacheJSON(fileName, data);
+    await cache.cacheJSON(fileName, { parsedArticles: data.parsedArticles, articleURLs: data.articleURLs });
   }
 }
 
-main([2020]);
+let args = process.argv.slice(2);
+let years = [];
+for (let arg of args) {
+  arg = parseInt(arg);
+  if (1800 <= arg && arg <= 2200) {
+    if (!years.includes(arg)) years.push(arg);
+  } else {
+    throw new Error("Enter valid year values.")
+  }
+}
+
+main(years);

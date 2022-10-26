@@ -1,5 +1,6 @@
 import makeRequest from './makeRequest.js';
-import { domain, language } from './globals.js'
+import { randDelay } from './delay.js';
+import { domain, language, smallDelay } from './globals.js'
 
 class User {
   constructor() {
@@ -24,6 +25,7 @@ export default class UserParser {
     try {
       let userProfileUrl = `${domain}/citations?user=${userId}&hl=${language}`;
 
+      await randDelay(...smallDelay);
       this.document = await makeRequest(userProfileUrl);
 
       this.user.id = userId;

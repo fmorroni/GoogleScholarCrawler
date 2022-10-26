@@ -5,12 +5,7 @@ import cache from './cache.js'
 import getArticlesFromURLs from './getArticlesFromURLs.js';
 
 (async function() {
-  let userCacheData = await cache.readCache(userCacheDataFileName);
-  // console.log(userCacheData);
-  // console.log('user ids: ' + userCacheData.userIDs);
-  for (let i = 0; i < userCacheData.userProfiles.length; ++i) {
-    console.log('User id: ', userCacheData.userProfiles[i].id === userCacheData.userIDs[i]);
-  }
+  console.log(await getUserId('carlos gustavo lopez pombo'));
 })()
 
 // readCache('test3')
