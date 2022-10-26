@@ -1,10 +1,9 @@
-import getUserId from './getUserId.js';
 import getArticleURLs from './getArticleURLs.js';
 import getArticlesFromURLs from "./getArticlesFromURLs.js";
-import getUserIDsFromInstitution from "./getIDsFromInstitution.js"
+import getUserIDsFromInstitution from "./getUserIDsFromInstitution.js"
 import UserParser from "./userParser.js";
-import { institutionURL } from './globals.js';
-import createLog from './createLog.js';
+import { institutionURL, userCacheDataFileName } from './globals.js';
+import cache from './cache.js'
 
 /* Researcher names for testing
   Marcelo F. Frías (137 articles)
@@ -14,42 +13,70 @@ import createLog from './createLog.js';
 */
 
 async function main(years = []) {
+  let articlesCacheData;
+  let fileName = years.length === 0 ? 'allArticles' : years.join('-');
+  let data = { userProfiles: [], articleURLs: [], parsedArticles: [] };
   try {
-    console.log('Searching for articles from years: ', years);
-    let data = { userProfiles: [], articleURLs: [], parsedArticles: [] };
-    let articleNamesNoRepeat = [];
+    cache.createCacheDir();
 
-    let userParser = new UserParser();
-    for (let userId of await getUserIDsFromInstitution(institutionURL)) {
-      console.log('Parsing new user', userId);
-      await userParser.parseUserProfile(userId); // esto como que agrega una request más por user, I don't like that...
-      let user = userParser.getProfile();
-      console.log(user.name);
-      data.userProfiles.push(user);
-
-      console.log('Parsing user article links')
-      let { urls: articleURLs, names: articleNames } = await getArticleURLs(userId, years);
-      console.log('All articles', articleURLs, articleNames);
-      articleURLs = articleURLs.filter((url, index) => {
-        if (articleNamesNoRepeat.includes(articleNames[index])) {
-          return false;
-        } else {
-          articleNamesNoRepeat.push(articleNames[index]);
-          return true;
-        }
-      });
-      console.log('Non repeated articles', articleURLs)
-      data.articleURLs.push(...articleURLs);
+    let userCacheData = await cache.readCache(userCacheDataFileName);
+    let userIDs;
+    if (!userCacheData) {
+      let userParser = new UserParser();
+      userIDs = await getUserIDsFromInstitution(institutionURL);
+      for (let userId of userIDs) {
+        console.log('Parsing new user', userId);
+        await userParser.parseUserProfile(userId);
+        let user = userParser.getProfile();
+        console.log(user.name);
+        data.userProfiles.push(user);
+      }
+      cache.cacheJSON(userCacheDataFileName, { userIDs: userIDs, userProfiles: data.userProfiles })
+        .catch(err => console.log(err));
+    } else {
+      userIDs = userCacheData.userIDs;
+      data.userProfiles = userCacheData.userProfiles;
     }
 
-    console.log('Complete list of non repeated articles: ', data.articleURLs);
-    let articles = await getArticlesFromURLs(data.articleURLs);
-    data.articles = articles;
+    articlesCacheData = await cache.readCache(fileName);
+    if (!articlesCacheData) {
+      console.log('Searching for articles from years: ', years);
+      let articleIDsNoRepeat = [];
 
-    await createLog('./logs', data, 'json');
-    // console.log(articles);
-  } catch (error) {
-    console.error('In main: ', error);
+      for (let userId of userIDs) {
+        console.log('Parsing user article links...')
+        let { urls: articleURLs, ids: articleIDs } = await getArticleURLs(userId, years);
+        // console.log('All articles', articleURLs, articleIDs);
+        articleURLs = articleURLs.filter((url, index) => {
+          if (articleIDsNoRepeat.includes(articleIDs[index])) {
+            return false;
+          } else {
+            articleIDsNoRepeat.push(articleIDs[index]);
+            return true;
+          }
+        });
+        // console.log('Non repeated articles', articleURLs)
+        data.articleURLs.push(...articleURLs);
+      }
+    } else {
+      data.articleURLs = articlesCacheData.articleURLs;
+      data.parsedArticles = articlesCacheData.parsedArticles;
+    }
+  } catch (err) {
+    throw new Error(err);
+  } // If an error occurs up to this point I'm not gonna bother caching anything, just rerun the program.
+
+  try {
+    console.log('Preparing to parse ' + data.articleURLs.length + ' articles...');
+    data.parsedArticles.concat(await getArticlesFromURLs(data.articleURLs));
+    console.log('Articles: ', parsedArticles);
+    fs.writeFile('./articles/' + fileName, JSON.stringify(data, null, 2))
+      .catch(err => console.error(err));
+  } catch (dataUpToError) {
+    console.log('Error caught. Caching results up to the error...');
+    data.parsedArticles = data.parsedArticles.concat(dataUpToError.parsedArticles);
+    data.articleURLs = dataUpToError.unparsedURLs;
+    await cache.cacheJSON(fileName, data);
   }
 }
 

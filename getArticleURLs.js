@@ -9,7 +9,7 @@ export default async function getArticleURLs(userId, years = []) {
     let pageSize = 100;
     let articleURLs = [];
     // Had to add this in order to check article repetition between users.
-    let articleNames = [];
+    let articleHashes = [];
 
     let articlesLeft;
     do {
@@ -27,16 +27,34 @@ export default async function getArticleURLs(userId, years = []) {
         articleNodes.forEach(ele => {
           let year = parseInt(ele.children[2].textContent);
           if (years.length === 0 || years.includes(year)) {
-            articleURLs.push(domain + ele.children[0].querySelector('a').href);
-            articleNames.push(ele.children[0].querySelector('a').textContent);
+            articleURLs.push(domain + '/' + ele.children[0].querySelector('a').href);
+            let name = ele.children[0].children[0].textContent;
+            let authors = ele.children[0].children[1].textContent;
+            let totalCitations = ele.children[1].textContent;
+            let year = ele.children[2].textContent;
+            articleHashes.push(generateHash(name + authors + totalCitations + year));
           }
         });
       }
       await randDelay(...mediumDelay);
     } while (articlesLeft);
 
-    return Promise.resolve({ urls: articleURLs, names: articleNames });
+    return Promise.resolve({ urls: articleURLs, ids: articleHashes });
   } catch (error) {
+    console.log('At getArticleURLs.');
     return Promise.reject(error);
   }
+}
+
+// Polynomial rolling hash function.
+function generateHash(string) {
+  let hash = 0;
+  let p = 61, m = 10 ** 9 + 9;
+  let p_pow = 1;
+  for (let i = 0; i < string.length; i++) {
+    hash += string[i].charCodeAt() * p_pow % m;
+    p_pow = (p_pow * p) % m;
+  }
+
+  return hash;
 }

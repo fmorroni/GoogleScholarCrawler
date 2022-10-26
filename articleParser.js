@@ -2,7 +2,6 @@ import makeRequest from './makeRequest.js';
 
 export class Article {
   constructor() {
-    this.id = null;
     this.title = null;
     this.scholarUrl = null;
     this.externalArticleUrl = null;
@@ -23,7 +22,6 @@ export class ArticleParser {
     try {
       this.articleDom = await makeRequest(articleUrl);
 
-      this.article.id = articleUrl.match(/citation_for_view=[^:]*:([^&]*)/)[1];
       this.article.scholarUrl = articleUrl;
       this.parseTitle();
       this.parseArticleLink();
@@ -33,9 +31,9 @@ export class ArticleParser {
       this.parseContents();
 
       return Promise.resolve(this.article);
-    } catch (error) {
-      //console.error('Error while parsing article at ' + articleUrl, error);
-      return Promise.reject(error);
+    } catch (err) {
+      // console.error('Error while parsing article at ' + articleUrl, error);
+      return Promise.reject(err);
     }
   }
 
@@ -60,10 +58,6 @@ export class ArticleParser {
     let pdfLink = this.articleDom.querySelector('div[class*="title"] > a');
 
     this.article.pdfLink = this.verify(pdfLink, 'href');
-  }
-
-  parseTotalCitations() {
-
   }
 
   parseContents() {

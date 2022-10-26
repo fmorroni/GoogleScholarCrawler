@@ -2,38 +2,53 @@ import { ArticleParser } from './articleParser.js';
 import { randDelay } from './delay.js';
 import { bigDelay } from './globals.js';
 
-export default async function getArticlesFromURLs(articleURLs) {
+export default async function getArticlesFromURLs(articleURLs = []) {
+  let parsedArticles = [];
+  let urlBatch = [];
   try {
+    articleURLs = [...articleURLs];
     const batchSize = 1;
-    let articles = [];
+    const initialLen = articleURLs.length;
     while (articleURLs.length) {
-      let articleBatch = await parseArticleBatch(articleURLs.splice(0, batchSize));
-      articles = articles.concat(articleBatch);
-      console.log('Number of articles parsed: ', articles.length);
+      urlBatch = articleURLs.splice(0, batchSize);
+      let articleBatch = await parseArticleBatch(urlBatch);
+      parsedArticles = parsedArticles.concat(articleBatch);
+      console.log('Number of articles parsed: ', parsedArticles.length);
     }
 
-    return Promise.resolve(articles);
-  } catch (error) {
-    return Promise.reject(error);
+    return Promise.resolve(parsedArticles);
+  } catch (err) {
+    // return Promise.reject(err);
+    // throw new Error('In getArticlesFromURLs');
+    // console.log('articleURLs', articleURLs);
+    // console.log('urlBatch', urlBatch);
+    console.error(err);
+    let dataUpToError = {parsedArticles: parsedArticles, unparsedURLs: urlBatch.concat(articleURLs)};
+    return Promise.reject(dataUpToError);
   }
 }
 
 async function parseArticleBatch(articleURLs) {
-  let promises = [];
-  for (let link of articleURLs) {
-    let articleParser = new ArticleParser();
-    promises.push(articleParser.generateArticle(link));
+  try {
+    let promises = [];
+    for (let url of articleURLs) {
+      let articleParser = new ArticleParser();
+      promises.push(articleParser.generateArticle(url));
+    }
+
+    // The timeout here will make sure every batch takes at least $delay ms to complete.
+    // This is done to (hopefully) avoid triggering google scholar's bot detection.
+    let promisedArticles = await Promise.all([...promises, randDelay(...bigDelay)]);
+    let delay = Math.floor(promisedArticles.pop()) / 1000;
+    console.log("Batch delay: ", delay);
+    // let articles = [];
+    // promisedArticles.forEach(article => {
+    //   (article.status === 'fulfilled') ? articles.push(article.value) : articles.push(article.reason);
+    // });
+    // return articles;
+
+    return promisedArticles;
+  } catch (err) {
+    return Promise.reject(err);
   }
-
-  // The timeout here will make sure every batch takes at least $delay ms to complete.
-  // This is done to (hopefully) avoid triggering google scholar's bot detection.
-  let promisedArticles = await Promise.allSettled([...promises, randDelay(...bigDelay)]);
-  let delay = Math.floor(promisedArticles.pop().value)/1000;
-  console.log("Batch delay: ", delay);
-  let articles = [];
-  promisedArticles.forEach(article => {
-    (article.status === 'fulfilled') ? articles.push(article.value) : articles.push(article.reason);
-  });
-
-  return articles;
 }

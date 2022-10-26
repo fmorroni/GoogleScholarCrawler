@@ -2,7 +2,7 @@ import fs from 'fs/promises';
 
 let dir = './.cache/';
 
-export async function createCacheDir() {
+async function createCacheDir() {
   try {
     await fs.mkdir(dir, { recursive: true });
   } catch (err) {
@@ -10,7 +10,7 @@ export async function createCacheDir() {
   }
 }
 
-export async function cacheJSON(fileName, obj) {
+async function cacheJSON(fileName, obj) {
   try {
     let file = dir + fileName + '.json';
     obj = JSON.stringify(obj, null, 2);
@@ -20,14 +20,36 @@ export async function cacheJSON(fileName, obj) {
   }
 }
 
-export async function readCache(fileName) {
+async function readCache(fileName) {
+  let file = dir + fileName + '.json';
   try {
-    let file = dir + fileName + '.json';
     await fs.access(file);
-    let asdf = await fs.readFile(file, { encoding: 'utf-8' });
-    console.log(JSON.parse(asdf))
+    let obj = await fs.readFile(file, { encoding: 'utf-8' });
+    try {
+      obj = JSON.parse(obj);
+    } catch (err) {
+      console.log('In "' + file + '" format not json.');
+      let newFile = dir + fileName + '.wrong_format';
+      console.log('Contents moved to ' + newFile);
+      await fs.writeFile(newFile, obj);
+      await fs.writeFile(file, '');
+      return null;
+    }
+    return obj;
   } catch (err) {
-    console.error(err);
-    throw new Error(`Couldn\'t access file "${fileName}".`);
+    if (err.code === 'ENOENT') {
+      console.log('No cache for ', file);
+      console.log('Creating ' + file + '...');
+      await fs.writeFile(file, '');
+      return null;
+    } else {
+      Promise.reject(err);
+    }
   }
+}
+
+export default {
+  createCacheDir: createCacheDir,
+  cacheJSON: cacheJSON,
+  readCache: readCache,
 }

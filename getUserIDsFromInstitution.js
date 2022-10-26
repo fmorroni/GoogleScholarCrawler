@@ -29,7 +29,7 @@ export default async function getUserIDsFromInstitution(institutionURL) {
 
     return Promise.resolve(userIDs);
   } catch (error) {
-    console.log('Error in getUserIDsFromInstitution.');
+    console.log('Error at getUserIDsFromInstitution.');
     return Promise.reject(error);
   }
 }

@@ -38,7 +38,7 @@ export default class UserParser {
       }
 
     } catch (error) {
-      //console.error('Error while parsing article at ' + articleUrl, error);
+      console.error('Error while parsing article at ' + articleUrl, error);
       return Promise.reject(error);
     }
   }
