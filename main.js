@@ -34,6 +34,7 @@ async function main(years = []) {
       cache.cacheJSON(userCacheDataFileName, { userIDs: userIDs, userProfiles: data.userProfiles })
         .catch(err => console.log(err));
     } else {
+      console.log('Using cached user data.');
       userIDs = userCacheData.userIDs;
       data.userProfiles = userCacheData.userProfiles;
     }
@@ -43,8 +44,8 @@ async function main(years = []) {
       console.log('Searching for articles from years: ', years);
       let articleIDsNoRepeat = [];
 
-      for (let userId of userIDs) {
-        console.log('Parsing user article links...')
+      for (let i = 0; i < userIDs.length; ++i) {
+        console.log(`Getting ${data.userProfiles[i].name}'s article links, ${userIDs.length - i} remaining...`);
         let { urls: articleURLs, ids: articleIDs } = await getArticleURLs(userId, years);
         // console.log('All articles', articleURLs, articleIDs);
         articleURLs = articleURLs.filter((url, index) => {
@@ -80,4 +81,4 @@ async function main(years = []) {
   }
 }
 
-main([2019]);
+main([2020]);
