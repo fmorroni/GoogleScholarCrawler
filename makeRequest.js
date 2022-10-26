@@ -1,23 +1,19 @@
 import fetch, { Request, Headers } from 'node-fetch';
 import { JSDOM } from 'jsdom';
-import { language, fail } from './globals.js'
+import { language } from './globals.js'
 
 export default async function makeRequest(requestUrl) {
-  if (fail.fail) {
-    throw new Error('Testing error in makeRequest');
-  } else {
-    try {
-      const myRequest = new Request(requestUrl)//, { headers: parseHeaders(requestUrl) });
-      const response = await fetch(myRequest);
-      let document = new JSDOM(await response.text()).window.document;
-      if (/(unusual traffic)|(tráfico inusual)/.test(document.body.textContent)) {
-        console.log('EMPEZÓ A BLOQUEAR!!!');
-        throw new Error(`Blocked at ${myRequest.url} by google scholar for unusual traffic.`);
-      }
-      return Promise.resolve(document);
-    } catch (err) {
-      return Promise.reject(err);
+  try {
+    const myRequest = new Request(requestUrl)//, { headers: parseHeaders(requestUrl) });
+    const response = await fetch(myRequest);
+    let document = new JSDOM(await response.text()).window.document;
+    if (/(unusual traffic)|(tráfico inusual)/.test(document.body.textContent)) {
+      console.log('EMPEZÓ A BLOQUEAR!!!');
+      throw new Error(`Blocked at ${myRequest.url} by google scholar for unusual traffic.`);
     }
+    return Promise.resolve(document);
+  } catch (err) {
+    return Promise.reject(err);
   }
 }
 
