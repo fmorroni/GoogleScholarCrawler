@@ -2,7 +2,8 @@ import getArticleURLs from './getArticleURLs.js';
 import getArticlesFromURLs from "./getArticlesFromURLs.js";
 import getUserIDsFromInstitution from "./getUserIDsFromInstitution.js"
 import UserParser from "./userParser.js";
-import { institutionURL, userCacheDataFileName } from './globals.js';
+import { institutionURL, userCacheDataFileName, parsedArticlesDir } from './globals.js';
+import fs from 'fs/promises';
 import cache from './cache.js'
 
 /* Researcher names for testing
@@ -15,7 +16,8 @@ import cache from './cache.js'
 async function main(years = []) {
   let articlesCacheData;
   let fileName = years.length === 0 ? 'allArticles' : years.join('-');
-  let data = { userProfiles: [], articleURLs: [], parsedArticles: [] };
+  let articleURLs = [];
+  let data = { userProfiles: [], parsedArticles: [] };
   try {
     cache.createCacheDir();
 
@@ -46,9 +48,9 @@ async function main(years = []) {
 
       for (let i = 0; i < userIDs.length; ++i) {
         console.log(`Getting ${data.userProfiles[i].name}'s article links, ${userIDs.length - i} users remaining...`);
-        let { articleURLs, articleHashes } = await getArticleURLs(userIDs[i], years);
-        console.log('Found ' + articleURLs.length + ' articles from user.');
-        articleURLs = articleURLs.filter((url, index) => {
+        let { articleURLs: currentUserArticleURLs, articleHashes } = await getArticleURLs(userIDs[i], years);
+        console.log('Found ' + currentUserArticleURLs.length + ' articles from user.');
+        currentUserArticleURLs = currentUserArticleURLs.filter((url, index) => {
           if (articleIDsNoRepeat.includes(articleHashes[index])) {
             return false;
           } else {
@@ -57,10 +59,10 @@ async function main(years = []) {
           }
         });
         // console.log('Non repeated articles', articleURLs)
-        data.articleURLs.push(...articleURLs);
+        articleURLs.push(...currentUserArticleURLs);
       }
     } else {
-      data.articleURLs = articlesCacheData.articleURLs;
+      articleURLs = articlesCacheData.articleURLs;
       data.parsedArticles = articlesCacheData.parsedArticles;
     }
   } catch (err) {
@@ -68,16 +70,22 @@ async function main(years = []) {
   } // If an error occurs up to this point I'm not gonna bother caching anything, just rerun the program.
 
   try {
-    console.log('Preparing to parse ' + data.articleURLs.length + ' articles...');
-    data.parsedArticles.concat(await getArticlesFromURLs(data.articleURLs));
-    console.log('Articles: ', parsedArticles);
-    fs.writeFile('./articles/' + fileName, JSON.stringify(data, null, 2))
-      .catch(err => console.error(err));
+    console.log('Preparing to parse ' + articleURLs.length + ' articles...');
+    data.parsedArticles = data.parsedArticles.concat(await getArticlesFromURLs(articleURLs));
   } catch (dataUpToError) {
     console.log('Error caught. Caching results up to the error...');
+    // This values will get cached in the next try-catch block.
     data.parsedArticles = data.parsedArticles.concat(dataUpToError.parsedArticles);
-    data.articleURLs = dataUpToError.unparsedURLs;
-    await cache.cacheJSON(fileName, { parsedArticles: data.parsedArticles, articleURLs: data.articleURLs });
+    articleURLs = dataUpToError.unparsedURLs;
+  }
+
+  try {
+    await cache.cacheJSON(fileName, { parsedArticles: data.parsedArticles, articleURLs: articleURLs });
+    await fs.mkdir(parsedArticlesDir, { recursive: true });
+    await fs.writeFile(parsedArticlesDir + '/' + fileName + '.json', JSON.stringify(data, null, 2));
+  } catch (err) {
+    console.error(err);
+    console.log(JSON.stringify(data, null, 2));
   }
 }
 
