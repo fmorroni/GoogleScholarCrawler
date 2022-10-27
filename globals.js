@@ -11,6 +11,7 @@ export const mediumDelay = [7, 10];
 export const bigDelay = [40, 90];
 
 export const userCacheDataFileName = 'userProfiles';
+export const parsedArticlesDir = './articles';
 
 export let fail = {
   fail: false,

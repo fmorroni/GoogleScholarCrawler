@@ -13,15 +13,11 @@ export default async function getArticlesFromURLs(articleURLs = []) {
       urlBatch = articleURLs.splice(0, batchSize);
       let articleBatch = await parseArticleBatch(urlBatch);
       parsedArticles = parsedArticles.concat(articleBatch);
-      console.log('Number of articles parsed: ', parsedArticles.length);
+      console.log('Number of articles parsed: ', parsedArticles.length + '/' + initialLen);
     }
 
     return Promise.resolve(parsedArticles);
   } catch (err) {
-    // return Promise.reject(err);
-    // throw new Error('In getArticlesFromURLs');
-    // console.log('articleURLs', articleURLs);
-    // console.log('urlBatch', urlBatch);
     console.error(err);
     let dataUpToError = {parsedArticles: parsedArticles, unparsedURLs: urlBatch.concat(articleURLs)};
     return Promise.reject(dataUpToError);
