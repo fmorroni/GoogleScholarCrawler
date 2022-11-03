@@ -1,0 +1,1481 @@
+{
+  "userProfiles": [
+    {
+      "affiliations": [
+        "CONICET en Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Robust control",
+        "linear parameter varying systems",
+        "identification",
+        "renewable energy",
+        "wind power"
+      ],
+      "id": "T_rX3BYAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=T_rX3BYAAAAJ&hl=en",
+      "name": "Fernando D. Bianchi",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Data Science",
+        "Business Intelligence",
+        "Databases",
+        "GIS"
+      ],
+      "id": "QT-7mosAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=QT-7mosAAAAJ&hl=en",
+      "name": "Vaisman Alejandro Ariel",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "CONICET and Instituto Tecnol�gico de Buenos Aires (ITBA)"
+      ],
+      "interests": [
+        "Robust identification & control",
+        "LPV systems",
+        "Artificial Pancreas",
+        "control in Neuroscience"
+      ],
+      "id": "B_Xkd0sAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=B_Xkd0sAAAAJ&hl=en",
+      "name": "Ricardo S. S�nchez-Pe�a",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Complex Systems",
+        "Complex Networks"
+      ],
+      "id": "WlU_A_UAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=WlU_A_UAAAAJ&hl=en",
+      "name": "Pablo M. Gleiser",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "CONICET - Instituto Tecnol�gico de Buenos Aires (ITBA)"
+      ],
+      "interests": [
+        "Active Matter",
+        "Pedestrian Dynamics",
+        "Experiment and Simulation of Physical",
+        "Social and Biological Agents."
+      ],
+      "id": "Xf5on3EAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=Xf5on3EAAAAJ&hl=en",
+      "name": "Daniel R. Parisi",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires (ITBA)"
+      ],
+      "interests": [
+        "Memoria",
+        "Reconsolidaci�n",
+        "Sue�o",
+        "Sue�o-L�cido",
+        "OBE"
+      ],
+      "id": "HtavTBoAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=HtavTBoAAAAJ&hl=en",
+      "name": "Cecilia Forcato",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Static Analysis",
+        "Testing",
+        "Bug Finding",
+        "Automated Repair",
+        "Fault Localization"
+      ],
+      "id": "7ijXVZMAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=7ijXVZMAAAAJ&hl=en",
+      "name": "Marcelo Frias",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnologico de Buenos Aires",
+        "Consejo Nacional de Investigaciones Cient�ficas y T�cnicas"
+      ],
+      "interests": [],
+      "id": "K0FFD28AAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=K0FFD28AAAAJ&hl=en",
+      "name": "Pablo Fierens",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnologico de Buenos Aires - ITBA"
+      ],
+      "interests": [
+        "gobernanza ambiental",
+        "cambio climatico",
+        "participacion publica",
+        "ciencia y politica"
+      ],
+      "id": "cNc2mdwAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=cNc2mdwAAAAJ&hl=en",
+      "name": "Daniel Ryan",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Postdoctoral Researcher",
+        "ITBA",
+        "Argentina"
+      ],
+      "interests": [
+        "Lucid Dreams",
+        "Out-of-body Experiences",
+        "Memory",
+        "Forgetting"
+      ],
+      "id": "pNTPLqAAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=pNTPLqAAAAAJ&hl=en",
+      "name": "Francisco Gallo",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Instituto de Tecnolog�a de Pol�meros y Nanotecnologia / Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Composites / Nanocomposites / Polyurethanes / Biobased"
+      ],
+      "id": "B1S_cZgAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=B1S_cZgAAAAJ&hl=en",
+      "name": "Chiacchiarelli Leonel Matias",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Profesor - Departamento de F�sica - Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [],
+      "id": "ZkvZtOQAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=ZkvZtOQAAAAJ&hl=en",
+      "name": "Andres D. Medus",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "ITBA",
+        "CONICET",
+        "FIUBA"
+      ],
+      "interests": [
+        "Robust Control",
+        "Control Applications",
+        "Aerospace Engineering"
+      ],
+      "id": "q19rcJoAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=q19rcJoAAAAJ&hl=en",
+      "name": "Alejandro S Ghersin",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Profesor adjunto",
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Mec�nica",
+        "Energ�a",
+        "Hidr�geno"
+      ],
+      "id": "TWJ9eoQAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=TWJ9eoQAAAAJ&hl=en",
+      "name": "Mart�n David",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Profesor de Ingenier�a Industrial",
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Materiales",
+        "procesos industriales",
+        "tecnolog�as emergentes"
+      ],
+      "id": "42SA-7oAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=42SA-7oAAAAJ&hl=en",
+      "name": "Leopoldo De Bernardez",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Professor fluid mechanics",
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Plasma physics",
+        "Fluids mechanics",
+        "porous media"
+      ],
+      "id": "XJdN-2IAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=XJdN-2IAAAAJ&hl=en",
+      "name": "Roberto Vieytes",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "UBA",
+        "ITBA"
+      ],
+      "interests": [
+        "estadistica",
+        "matematica",
+        "bioestadistica",
+        "econometria."
+      ],
+      "id": "juWnFdAAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=juWnFdAAAAAJ&hl=en",
+      "name": "C.CastroK",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "ITBA Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Industrial stats",
+        "Operations and Quality management"
+      ],
+      "id": "FHva9BEAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=FHva9BEAAAAJ&hl=en",
+      "name": "De Zan Arturo T.",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "TMS",
+        "surgical navigation",
+        "signal processing",
+        "computer assisted surgery",
+        "computer graphics"
+      ],
+      "id": "lhk5azwAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=lhk5azwAAAAJ&hl=en",
+      "name": "Axel Victor Andr�s Mancino",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "ITBA"
+      ],
+      "interests": [
+        "Controle",
+        "Rob�tica",
+        "Automa��o"
+      ],
+      "id": "diEvI4EAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=diEvI4EAAAAJ&hl=en",
+      "name": "Reurison Silva",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Databases",
+        "graphs"
+      ],
+      "id": "hOLbs1gAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=hOLbs1gAAAAJ&hl=en",
+      "name": "Valeria Soliani",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires - Profesor UTN BA"
+      ],
+      "interests": [
+        "innovaci�n",
+        "calidad",
+        "costos",
+        "justicia",
+        "aprendizaje"
+      ],
+      "id": "XouNI74AAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=XouNI74AAAAJ&hl=en",
+      "name": "Sara Castiglioni",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "polymerization reactors",
+        "polymers",
+        "phase inversion"
+      ],
+      "id": "jQS_A1gAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=jQS_A1gAAAAJ&hl=en",
+      "name": "Juan Martin Maffi",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Profesor de la carrera de Ing. Inform�tica",
+        "ITBA (Instituto Tecnol�gico de Buenos Aires)"
+      ],
+      "interests": [
+        "Bases de Datos",
+        "Grafos"
+      ],
+      "id": "5fXM6mIAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=5fXM6mIAAAAJ&hl=en",
+      "name": "Valeria Soliani",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "Ingenier�a Mec�nica",
+        "Materiales Compuestos",
+        "Ingenier�a de los Materiales",
+        "Impresi�n 3D"
+      ],
+      "id": "h9m4lf8AAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=h9m4lf8AAAAJ&hl=en",
+      "name": "Nicol�s Andr�s Oyarz�bal",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "CONICET",
+        "ITBA"
+      ],
+      "interests": [
+        "robotics",
+        "control",
+        "bio-mechanics",
+        "image processing"
+      ],
+      "id": "Vw2ACFAAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=Vw2ACFAAAAAJ&hl=en",
+      "name": "Damian Garayalde",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires (ITBA)"
+      ],
+      "interests": [
+        "EMC",
+        "Microelectronics"
+      ],
+      "id": "I603PAQAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=I603PAQAAAAJ&hl=en",
+      "name": "Pablo Jes�s Gardella",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires (ITBA)"
+      ],
+      "interests": [
+        "Neuroscience",
+        "Sleep",
+        "Memory",
+        "False memories"
+      ],
+      "id": "AlBnlfYAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=AlBnlfYAAAAJ&hl=en",
+      "name": "Candela Sofia Leon",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Estudiante de doctorado del laboratorio de sue�o y memoria ITBA"
+      ],
+      "interests": [
+        "Memoria",
+        "Sue�o",
+        "Falsas Memorias"
+      ],
+      "id": "MOYqnUEAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=MOYqnUEAAAAJ&hl=en",
+      "name": "Matias Bonilla",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "Adjunct Proffesor",
+        "ITBA"
+      ],
+      "interests": [
+        "hydrogen technologies",
+        "heat transfer",
+        "computational fluid mechanics",
+        "fluid mechanics"
+      ],
+      "id": "_QzryBkAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=_QzryBkAAAAJ&hl=en",
+      "name": "Patricio Pedreira",
+      "emailDomain": "itba.edu.ar - Homepage"
+    },
+    {
+      "affiliations": [
+        "ITBA"
+      ],
+      "interests": [],
+      "id": "TtRhyOkAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=TtRhyOkAAAAJ&hl=en",
+      "name": "Leonela M. Tassone",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [],
+      "id": "uAbtRnYAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=uAbtRnYAAAAJ&hl=en",
+      "name": "Franco Rom�n Meola",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires (ITBA)"
+      ],
+      "interests": [
+        "bibliotecolog�a",
+        "documentaci�n",
+        "bases de datos",
+        "biblioteconom�a"
+      ],
+      "id": "eJb1R0IAAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=eJb1R0IAAAAJ&hl=en",
+      "name": "Santiago Roca Iturralde",
+      "emailDomain": "itba.edu.ar"
+    },
+    {
+      "affiliations": [
+        "Instituto Tecnol�gico de Buenos Aires"
+      ],
+      "interests": [
+        "neurociencias",
+        "sue�o",
+        "machine learning",
+        "ingenier�a"
+      ],
+      "id": "s_Gu_N4AAAAJ",
+      "profileUrl": "https://scholar.google.com/citations?user=s_Gu_N4AAAAJ&hl=en",
+      "name": "Aylin Agatha Vazquez Chenlo",
+      "emailDomain": "itba.edu.ar - Homepage"
+    }
+  ],
+  "parsedArticles": [
+    {
+      "title": "A non-centralized predictive control strategy for wind farm active power control: A wake-based partitioning approach",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=T_rX3BYAAAAJ&pagesize=100&citation_for_view=T_rX3BYAAAAJ:4fKUyHm3Qg0C",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S0960148119320129",
+      "pdfLink": "https://upcommons.upc.edu/bitstream/handle/2117/331100/2323-A-non-centralized-predictive-control-strategy-for-wind-farm-active-power-control%20-A-wake-based-partitioning-approach.pdf?sequence=1",
+      "totalCitations": 16,
+      "authors": "Sara Siniscalchi-Minna, Fernando D Bianchi, Carlos Ocampo-Martinez, Jose Luis Dom�nguez-Garc�a, Bart De Schutter",
+      "publicationDate": "2020/5/1",
+      "journal": "Renewable energy",
+      "volume": "150",
+      "pages": "656-669",
+      "publisher": "Pergamon",
+      "description": "Owing to wake effects, the power production of each turbine in a wind farm is highly coupled to the operating conditions of the other turbines. Wind farm control strategies must take into account these couplings and produce individual power commands for each turbine. In this case, centralized control approaches might be prone to failures due to the high computational burden and communication dependency. To overcome this problem, this paper proposes a non-centralized scheme based on splitting the wind farm into almost uncoupled sets of turbines by solving a mixed-integer partitioning problem. In each set of turbines, a model predictive control strategy seeks to optimize the distribution of the power set-points among turbines such that the impact of the power losses due to the wake effect is reduced. Then, a supervisory controller coordinates the generation of each group to satisfy the power demanded by the�…"
+    },
+    {
+      "title": "Automatic glucose control during meals and exercise in type 1 diabetes: Proof-of-concept in silico tests using a switched LPV approach",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=T_rX3BYAAAAJ&pagesize=100&citation_for_view=T_rX3BYAAAAJ:8AbLer7MMksC",
+      "externalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/9273055/",
+      "pdfLink": "https://ri.conicet.gov.ar/bitstream/handle/11336/155074/CONICET_Digital_Nro.a0cdb1ca-c4ad-4159-8642-e7a33984d672_A.pdf?sequence=2",
+      "totalCitations": 10,
+      "authors": "Patricio Hern�n Colmegna, Fernando Daniel Bianchi, Ricardo Salvador S�nchez-Pe�a",
+      "publicationDate": "2020/11/30",
+      "journal": "IEEE Control Systems Letters",
+      "volume": "5",
+      "issue": "5",
+      "pages": "1489-1494",
+      "publisher": "IEEE",
+      "description": "Keeping the blood glucose levels within the safe range during meals and exercise still represents a major hurdle not only for patients with type 1 diabetes (T1D), but also for Artificial Pancreas (AP) systems. One of the reasons a fully (autonomous) closed-loop solution has not been released onto the market yet is the slow action of current insulin analogs. To partially overcome this limitation, the authors have previously designed a switched control strategy equipped with an insulin-on-board (IOB) safety loop that mitigates meal-related glucose excursions without carbohydrate counting. In this letter, a similar strategy based on a Linear Parameter-Varying (LPV) control law has been adapted to safely handle also exercise challenges with minimum user intervention. In silico results using the UVA/Padova simulator evidence that the proposed closed-loop scheme is feasible under moderate-intense exercise bouts by�…"
+    },
+    {
+      "title": "Design and implementation of ETL processes using BPMN and relational algebra",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=QT-7mosAAAAJ&pagesize=100&citation_for_view=QT-7mosAAAAJ:VOx2b1Wkg3QC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S0169023X19306111",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3080/Awiti_2020_ING_INFORMATICA_embargo24meses.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 13,
+      "authors": "Judith Awiti, Alejandro A Vaisman, Esteban Zim�nyi",
+      "publicationDate": "2020/9/1",
+      "journal": "Data & Knowledge Engineering",
+      "volume": "129",
+      "pages": "101837",
+      "publisher": "North-Holland",
+      "description": "Extraction, transformation, and loading (ETL) processes are used to extract data from internal and external sources of an organization, transform these data, and load them into a data warehouse. The Business Process Modeling and Notation (BPMN) has been proposed for expressing ETL processes at a conceptual level. A different approach is studied in this paper, where relational algebra (RA), extended with update operations, is used for specifying ETL processes. In this approach, data tasks in an ETL workflow can be automatically translated into SQL queries to be executed over a DBMS. To illustrate this study, the paper addresses the problem of updating Slowly Changing Dimensions (SCDs) with dependencies, that is, the case when updating a SCD table impacts on associated SCD tables. Tackling this problem requires extending the classic RA with update operations. The paper also shows the�…"
+    },
+    {
+      "title": "Analyzing the quality of Twitter data streams",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=QT-7mosAAAAJ&pagesize=100&citation_for_view=QT-7mosAAAAJ:D_sINldO8mEC",
+      "externalArticleUrl": "https://link.springer.com/article/10.1007/s10796-020-10072-x",
+      "pdfLink": "https://link.springer.com/article/10.1007/s10796-020-10072-x",
+      "totalCitations": 8,
+      "authors": "Franco Arolfo, Kevin Cort�s Rodriguez, Alejandro Vaisman",
+      "publicationDate": "2020/11/4",
+      "journal": "Information Systems Frontiers",
+      "pages": "1-21",
+      "publisher": "Springer US",
+      "description": "             There is a general belief that the quality of Twitter data streams is generally low and unpredictable, making, in some way, unreliable to take decisions based on such data. The work presented here addresses this problem from a Data Quality (DQ) perspective, adapting the traditional methods used in relational databases, based on quality dimensions and metrics, to capture the characteristics of Twitter data streams in particular, and of Big Data in a more general sense. Therefore, as a first contribution, this paper re-defines the classic DQ dimensions and metrics for the scenario under study. Second, the paper introduces a software tool that allows capturing Twitter data streams in real time, computing their DQ and displaying the results through a wide variety of graphics. As a third contribution of this paper, using the aforementioned machinery, a thorough analysis of the DQ of Twitter streams is performed, based�…"
+    },
+    {
+      "title": "Online analytical processsing on graph data",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=QT-7mosAAAAJ&pagesize=100&citation_for_view=QT-7mosAAAAJ:8AbLer7MMksC",
+      "externalArticleUrl": "https://content.iospress.com/articles/intelligent-data-analysis/ida194576",
+      "pdfLink": "https://arxiv.org/pdf/1909.01216",
+      "totalCitations": 5,
+      "authors": "Leticia G�mez, Bart Kuijpers, Alejandro Vaisman",
+      "publicationDate": "2020/1/1",
+      "journal": "Intelligent Data Analysis",
+      "volume": "24",
+      "issue": "3",
+      "pages": "515-541",
+      "publisher": "IOS Press",
+      "description": "Online Analytical Processing (OLAP) comprises tools and algorithms that allow querying multidimensional databases. It is based on the multidimensional model, where data can be seen as a cube such that each cell contains one or more measures that can be aggregated along dimensions. In a “Big Data” scenario, traditional data warehousing and OLAP operations are clearly not sufficient to address current data analysis requirements, for example, social network analysis. Furthermore, OLAP operations and models can expand the possibilities of graph analysis beyond the traditional graph-based computation. Nevertheless, there is not much work on the problem of taking OLAP analysis to the graph data model."
+    },
+    {
+      "title": "A temporal multidimensional model and OLAP operators",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=QT-7mosAAAAJ&pagesize=100&citation_for_view=QT-7mosAAAAJ:eJXPG6dFmWUC",
+      "externalArticleUrl": "https://www.igi-global.com/article/a-temporal-multidimensional-model-and-olap-operators/265260",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3255/Ahmed_2020_ING_INFORMATICA.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 3,
+      "authors": "Waqas Ahmed, Esteban Zim�nyi, Alejandro Ariel Vaisman, Robert Wrembel",
+      "publicationDate": "2020/10/1",
+      "journal": "International Journal of Data Warehousing and Mining (IJDWM)",
+      "volume": "16",
+      "issue": "4",
+      "pages": "112-143",
+      "publisher": "IGI Global",
+      "description": "Usually, data in data warehouses (DWs) are stored using the notion of the multidimensional (MD) model. Often, DWs change in content and structure due to several reasons, like, for instance, changes in a business scenario or technology. For accurate decision-making, a DW model must allow storing and analyzing time-varying data. This paper addresses the problem of keeping track of the history of the data in a DW. For this, first, a formalization of the traditional MD model is proposed and then extended as a generalized temporal MD model. The model comes equipped with a collection of typical online analytical processing (OLAP) operations with temporal semantics, which is formalized for the four classic operations, namely roll-up, dice, project, and drill-across. Finally, the mapping from the generalized temporal model into a relational schema is presented together with an implementation of the temporal OLAP�…"
+    },
+    {
+      "title": "Dynamic modelling of alkaline self-pressurized electrolyzers: a phenomenological-based semiphysical approach",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B_Xkd0sAAAAJ&pagesize=100&citation_for_view=B_Xkd0sAAAAJ:4vMrXwiscB8C",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S0360319920321753",
+      "pdfLink": "https://digital.csic.es/bitstream/10261/227623/1/2354-Dynamic-modelling-of-Alkaline-self-pressurized-electrolyzers_-a-phenomenological-based-semiphysical-approach.pdf",
+      "totalCitations": 20,
+      "authors": "Mart�n David, Hern�n �lvarez, Carlos Ocampo-Mart�nez, Ricardo S�nchez-Pe�a",
+      "publicationDate": "2020/9/3",
+      "journal": "International Journal of Hydrogen Energy",
+      "volume": "45",
+      "issue": "43",
+      "pages": "22394-22407",
+      "publisher": "Pergamon",
+      "description": "This paper proposes a phenomenological based semiphysical model (PBSM) for a self-pressurized alkaline electrolyzer. The model, based on mass and energy balances, represents the dynamic behaviour of hydrogen and oxygen production using electrolysis. The model allows to anticipate operational variables as dynamic responses in the concentrations of the electrolytic cell, and variations in both, level and pressure, at the gas separation chambers due to the change in electric current. The model parameters have been adjusted based on experimental measurements taken from an available prototype and through a suitable identification process. Simulation results replicate the current dynamic response of the experimental self-pressurized electrolyzer assembly. This model proves to be useful in the improvement of the control of gas production rate in this kind of assemblies, both as a validated simulation�…"
+    },
+    {
+      "title": "Industry engagement with control research: Perspective and messages",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B_Xkd0sAAAAJ&pagesize=100&citation_for_view=B_Xkd0sAAAAJ:QYdC8u9Cj1oC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S1367578820300080",
+      "pdfLink": "https://www.sciencedirect.com/science/article/pii/S1367578820300080",
+      "totalCitations": 19,
+      "authors": "Tariq Samad, Margret Bauer, Scott Bortoff, Stefano Di Cairano, Lorenzo Fagiano, Peter Fogh Odgaard, R Russell Rhinehart, Ricardo S�nchez-Pe�a, Atanas Serbezov, Finn Ankersen, Philippe Goupil, Benyamin Grosman, Marcel Heertjes, Iven Mareels, Raye Sosseh",
+      "publicationDate": "2020/1/1",
+      "source": "Annual Reviews in Control",
+      "volume": "49",
+      "pages": "1-14",
+      "publisher": "Pergamon",
+      "description": "Despite the enormous benefit that has accrued to society from control technology and the continued vitality of control science as a research field, there is broad consensus that the practitioners of control and the academic research community are insufficiently engaged with each other. We explore this concern with reference to the oft-cited theory/practice gap but also from an industry perspective. The core of this article is comprised of ten “messages,” intended primarily for researchers interested in the practical impact of their work, that we hope shed insight on the industry mindset. Results from surveys and other data are cited to underpin the points. Some educational synergies between industry and academia are also noted. To highlight the continuing relevance of control science to industry, several recent examples of successful, deployed advanced control solutions are presented. The authors of this article are�…"
+    },
+    {
+      "title": "Control-oriented model with intra-patient variations for an artificial pancreas",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B_Xkd0sAAAAJ&pagesize=100&citation_for_view=B_Xkd0sAAAAJ:OTTXONDVkokC",
+      "externalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/8970365/",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/1906/Moscoso_2020_BIOINGENIERIA.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 11,
+      "authors": "Marcela Moscoso-V�squez, Patricio Colmegna, Nicol�s Rosales, Fabricio Garelli, Ricardo Sanchez-Pena",
+      "publicationDate": "2020/1/27",
+      "journal": "IEEE journal of biomedical and health informatics",
+      "volume": "24",
+      "issue": "9",
+      "pages": "2681-2689",
+      "publisher": "IEEE",
+      "description": "In this work, a low-order model designed for glucose regulation in Type 1 Diabetes Mellitus (T1DM) is obtained from the UVA/Padova metabolic simulator. It captures not only the nonlinear behavior of the glucose-insulin system, but also intra-patient variations related to daily insulin sensitivity (S I ) changes. To overcome the large inter-subject variability, the model can also be personalized based on a priori patient information. The structure is amenable for linear parameter varying (LPV) controller design, and represents the dynamics from the subcutaneous insulin input to the subcutaneous glucose output. The efficacy of this model is evaluated in comparison with a previous control-oriented model which in turn is an improvement of previous models. Both models are compared in terms of their openand closed-loop differences with respect to the UVA/Padova model. The proposed model outperforms previous T1DM�…"
+    },
+    {
+      "title": "Volume-conducted origin of the field potential at the lateral habenula",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B_Xkd0sAAAAJ&pagesize=100&citation_for_view=B_Xkd0sAAAAJ:mlAyqtXpCwEC",
+      "externalArticleUrl": "https://www.frontiersin.org/articles/10.3389/fnsys.2019.00078/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Systems_Neuroscience&id=500560",
+      "pdfLink": "https://www.frontiersin.org/articles/10.3389/fnsys.2019.00078/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Systems_Neuroscience&id=500560",
+      "totalCitations": 6,
+      "authors": "Nicolas Iv�n Bertone-Cueto, Julia Makarova, Alejo Mosqueira, Demian Garc�a-Violini, Ricardo S�nchez-Pe�a, Oscar Herreras, Mariano Belluscio, Joaquin Piriz",
+      "publicationDate": "2020",
+      "journal": "Frontiers in systems neuroscience",
+      "pages": "78",
+      "publisher": "Frontiers",
+      "description": "Field Potentials (FP) are easily reached signals that provide information about the brain’s processing. However, FP should be interpreted cautiously since their biophysical bases are complex. The lateral habenula (LHb) is a brain structure involved in the encoding of aversive motivational values. Previous work indicates that the activity of the LHb is relevant for hippocampal-dependent learning. Moreover, it has been proposed that the interaction of the LHb with the hippocampal network is evidenced by the synchronization of LHb and hippocampal FPs during theta rhythm. However, the origin of the habenular FP has not been analyzed. Hence, its validity as a measurement of LHb activity has not been proven. In this work, we used electrophysiological recordings in anesthetized rats and feed-forward modeling to investigate biophysical basis of the FP recorded in the LHb. Our results indicate that the FP in the LHb during theta rhythm is a volume-conducted signal from the hippocampus. This result highlight that FPs must be thoroughly analyzed prior to its biological interpretation and argues against the use of the habenular FP signal as a readout of the activity of the LHb."
+    },
+    {
+      "title": "Dynamic classification applied to brain recognition of context exploration",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B_Xkd0sAAAAJ&cstart=100&pagesize=100&citation_for_view=B_Xkd0sAAAAJ:fFSKOagxvKUC",
+      "externalArticleUrl": "<Value not found.>",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "S. Mart�nez, V. Mazzone, D. Garc�a-Violini, A. Silva, M. Belluscio, J. Piriz, R.S. S�nchez-Pe�a",
+      "publicationDate": "2020",
+      "conference": "Congreso Argentino de Control Autom�tico",
+      "publisher": "Asociaci�n Argentina de Control Autom�tico"
+    },
+    {
+      "title": "Impact reduction of COVID19 in AMBA Part 2: lockdown control",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B_Xkd0sAAAAJ&cstart=100&pagesize=100&citation_for_view=B_Xkd0sAAAAJ:OcBU2YAGkTUC",
+      "externalArticleUrl": "https://ri.conicet.gov.ar/handle/11336/129309",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Ricardo Salvador S�nchez-Pe�a, Demian Garc�a Violini, Marcela Moscoso V�zquez, Fabricio Garelli",
+      "publicationDate": "2020",
+      "publisher": "Congreso Argentino de Control Autom�tico",
+      "description": "This work presents the second part of a study focused on the multilevel control of the population confinement for the AMBA region to mitigate the COVID-19 outbreak. With this aim, the model used throughout this study is known as SEIRD and two objectives are sought. Firstly, a time-varying identification of the infection rate and its relation with the measured average mobility in the AMBA is developed. Secondly, a control law is added to regulate the transitions between confinement and normal life, according to five different levels. This work is presented in two parts: Part 1 covers the model identification and validation, and the analysis of the impact on the model of the measured average mobility; while this paper (Part 2) details the proposed control methodology, which considers the plasma treatment from recovered patients. Here, the impact of the proposed model-based control methodology on the reduction of the ICU occupancy and the number of deaths, is detailed."
+    },
+    {
+      "title": "Impact reduction of COVID19 in AMBA Part 1: Model identification & validation",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B_Xkd0sAAAAJ&cstart=100&pagesize=100&citation_for_view=B_Xkd0sAAAAJ:ODE9OILHJdcC",
+      "externalArticleUrl": "https://notablesdelaciencia.conicet.gov.ar/handle/11336/129308",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Demian Garc�a Violini, Marcela Moscoso V�zquez, Fabricio Garelli, Ricardo Salvador S�nchez-Pe�a",
+      "publicationDate": "2020",
+      "publisher": "Congreso Argentino de Control Autom�tico",
+      "description": "This work presents the first part of a study focused on the multilevel control of the population confinement for the AMBA region to mitigate the COVID-19 outbreak. With this aim, the models used throughout this study are known as SEIR/SEIRD and two objectives are sought. Firstly, a timevarying identification of the infection rate and its relation with the measured average mobility in the AMBA is developed. Secondly, a control law is added to regulate the transitions between confinement and normal life, according to five different levels. This work is presented in two parts: this paper (Part 1) covers the model identification and validation, and the analysis of the impact on the model of the measured average mobility; while Part 2 details the proposed control methodology, which also considers the plasma treatment from recovered patients. The latter focuses on the impact of the proposed model-based control methodology on the reduction of the ICU occupancy and number of deaths"
+    },
+    {
+      "title": "Pediatric glucose regulation without pre-meal insulin boluses: an approach based on switched control and time-varying IOB constraints",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B_Xkd0sAAAAJ&cstart=100&pagesize=100&citation_for_view=B_Xkd0sAAAAJ:IUKN3-7HHlwC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S2405896320309162",
+      "pdfLink": "http://ifatwww.et.uni-magdeburg.de/ifac2020/media/pdfs/2169.pdf",
+      "totalCitations": 0,
+      "authors": "Emilia Fushimi, Mar�a Cecilia Serafini, Ricardo S�nchez-Pe�a, Hern�n De Battista, Fabricio Garelli",
+      "publicationDate": "2020/1/1",
+      "journal": "IFAC World Congress",
+      "volume": "53",
+      "issue": "2",
+      "pages": "16209-16214",
+      "publisher": "Elsevier",
+      "description": "Artificial pancreas (AP) systems have shown to improve glucose regulation in type 1 diabetes (T1D) patients. However, full closed-loop performance remains a challenge particularly in children and adolescents, since these age groups often present the worst glycemic control. In this work, a new algorithm based on switched control and time-varying insulin-on-board (IOB) constraints is presented (ARGAE). This method is a combination of ideas from the previously introduced Automatic Regulation of Glucose (ARG) algorithm, which features no pre-meal insulin boluses, and the Amplitude Enable (AE) mode, which allows the controller to act more aggressively at the beginning of meal intake without risking postprandial hypoglycemia. The proposed control strategy is evaluated in silico and its performance contrasted with the ARG algorithm in the pediatric population. Results show that the ARGAE presents improved�…"
+    },
+    {
+      "title": "Data-driven simulation of pedestrian collision avoidance with a nonparametric neural network",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Xf5on3EAAAAJ&pagesize=100&citation_for_view=Xf5on3EAAAAJ:4JMBOYKVnBMC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S0925231219315000",
+      "pdfLink": "https://arxiv.org/pdf/1907.07702",
+      "totalCitations": 9,
+      "authors": "Rafael F Martin, Daniel R Parisi",
+      "publicationDate": "2020/2/28",
+      "journal": "Neurocomputing",
+      "volume": "379",
+      "pages": "130-140",
+      "publisher": "Elsevier",
+      "description": "Data-driven simulation of pedestrian dynamics is an incipient and promising approach for building reliable microscopic pedestrian models. We propose a methodology based on generalized regression neural networks, which does not have to deal with a huge number of free parameters as in the case of multilayer neural networks. Although the method is general, we focus on the one pedestrian - one obstacle problem. Experimental data were collected in a motion capture laboratory providing high-precision trajectories. The proposed model allows us to simulate the trajectory of a pedestrian avoiding an obstacle from any direction. Together with the methodology specifications, we provide the data set needed for performing the simulations of this kind of pedestrian dynamic system."
+    },
+    {
+      "title": "Properties of balanced flows with bottlenecks: Common stylized facts in finance and vibration-driven vehicles",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Xf5on3EAAAAJ&pagesize=100&citation_for_view=Xf5on3EAAAAJ:bEWYMUwI8FkC",
+      "externalArticleUrl": "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.101.042302",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3279/Patterson_2020_FISICA.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 5,
+      "authors": "GA Patterson, Didier Sornette, DR Parisi",
+      "publicationDate": "2020/4/13",
+      "journal": "Physical Review E",
+      "volume": "101",
+      "issue": "4",
+      "pages": "042302",
+      "publisher": "American Physical Society",
+      "description": "We study experimentally the properties of the flow of mechanical vibration-driven vehicles confined in two chambers connected through a narrow opening. We report that the density of particles around the opening presents critical behavior and scaling properties. By mapping this density to the financial market price, we document that the main stylized facts observed in financial systems have their counterparts in the mechanical system. The experimental model accurately reproduces financial properties such as scaling of the price fluctuation, volatility clustering, and multiscaling."
+    },
+    {
+      "title": "Pedestrian collision avoidance with a local dynamic goal",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Xf5on3EAAAAJ&pagesize=100&citation_for_view=Xf5on3EAAAAJ:TFP_iSt0sucC",
+      "externalArticleUrl": "http://collective-dynamics.eu/index.php/cod/article/view/A66",
+      "pdfLink": "https://collective-dynamics.eu/index.php/cod/article/download/A66/82",
+      "totalCitations": 4,
+      "authors": "Rafael Martin, Daniel Parisi",
+      "publicationDate": "2020/3/27",
+      "journal": "Collective Dynamics",
+      "volume": "5",
+      "pages": "324-331",
+      "description": "We present here a general formalism for equipping simulated pedestrians with an avoidance mechanism. The central idea is to use a short-range target which is adjusted dynamically depending on the environment and thus modulating the desired velocity of the agent. This formulation can be implemented over any type of existing pedestrian model, being force-based or rule-based. As an example, we implement a simple instance of the formulation which is adjusted to reproduce previous reported and available experimental data of collision avoidance in scenarios of low density. The proposed minimal model shows good agreement with the real trajectories and other macroscopic observables."
+    },
+    {
+      "title": "Social distance characterization by means of pedestrian simulation",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Xf5on3EAAAAJ&pagesize=100&citation_for_view=Xf5on3EAAAAJ:k_IJM867U9cC",
+      "externalArticleUrl": "https://arxiv.org/abs/2009.04019",
+      "pdfLink": "https://arxiv.org/pdf/2009.04019",
+      "totalCitations": 3,
+      "authors": "Daniel R Parisi, Germ�n A Patterson, Lucio Pagni, Agustina Osimani, Tomas Bacigalupo, Juan Godfrid, Federico M Bergagna, Manuel Rodriguez Brizi, Pedro Momesso, Fermin L Gomez, Jimena Lozano, Juan Martin Baader, Ignacio Ribas, Facundo P Astiz Meyer, Miguel Di Luca, Nicol�s E Barrera, Ezequiel M Keimel �lvarez, Maite M Herran Oyhanarte, Pedro R Pingarilho, Ximena Zuberbuhler, Felipe Gorostiaga",
+      "publicationDate": "2020/9/8",
+      "journal": "arXiv preprint arXiv:2009.04019",
+      "description": "In the present work, we study how the number of simulated clients (occupancy) affects the social distance in an ideal supermarket. For this, we account for realistic typical dimensions and process time (picking products and checkout). From the simulated trajectories, we measure events of social distance less than 2 m and its duration. Between other observables, we define a social distance coefficient that informs how many events (of a given duration) suffer each agent in the system. These kinds of outputs could be useful for building procedures and protocols in the context of a pandemic allowing to keep low health risks while setting a maximum operating capacity."
+    },
+    {
+      "title": "Set-up of a method for people-counting using images from a UAV",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Xf5on3EAAAAJ&pagesize=100&citation_for_view=Xf5on3EAAAAJ:JV2RwH3_ST0C",
+      "externalArticleUrl": "https://link.springer.com/chapter/10.1007/978-3-030-55973-1_28",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3353/11_%20Parisi_FISICA_ponencia.pdf?sequence=1",
+      "totalCitations": 2,
+      "authors": "Daniel R Parisi, Juan I Giribet, Claudio D Pose, Ignacio Mas",
+      "publicationDate": "2020",
+      "book": "Traffic and Granular Flow 2019",
+      "pages": "225-231",
+      "publisher": "Springer, Cham",
+      "description": "               We present a new method for obtaining the positions of each person attending an outdoor gathering. From this information it is possible to calculate the density field and the number of people. A dual-camera (visible + infrared (IR)) is mounted on an unmanned aerial vehicle�(UAV). In this work, we only use the IR channel and present an initial set-up and calibration of the system along with the characterization of a small group of people."
+    },
+    {
+      "title": "People counting using visible and infrared images",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Xf5on3EAAAAJ&pagesize=100&citation_for_view=Xf5on3EAAAAJ:NMxIlDl6LWMC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3504",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Mart�n Biagini, Joaqu�n Filipic, Ignacio Mas, Claudio D Pose, Juan I Giribet, Daniel Parisi",
+      "publicationDate": "2020",
+      "description": "\"We propose the use of convolutional neural networks (CNN) for counting and positioning people in visible and infrared images. Our data set is made of semi-artificial images created from real photographs taken from a drone using a dual FLIR camera. We compare the performance between CNN’s using 3 (RGB) and 4 (RGB+IR) channels, both under different lighting conditions. The 4-channel network responds better in all situations, particularly in cases of poor visible illumination that can be found in night scenarios. The proposed methodology could be applied to real situations when an extensive databank of 4-channel images will be available.\""
+    },
+    {
+      "title": "Elongated self-propelled particles roaming a closed arena present financial stylized facts",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Xf5on3EAAAAJ&pagesize=100&citation_for_view=Xf5on3EAAAAJ:M3NEmzRMIkIC",
+      "externalArticleUrl": "https://link.springer.com/chapter/10.1007/978-3-030-55973-1_52",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3342/7_Patterson_Parisi_2019_FISICAponencia.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 0,
+      "authors": "Germ�n A Patterson, Daniel R Parisi",
+      "publicationDate": "2020",
+      "book": "Traffic and Granular Flow 2019",
+      "pages": "421-427",
+      "publisher": "Springer, Cham",
+      "description": " We report the existence of financial stylized facts�in a system of mechanical vehicles driven by vibration (VDV). The VDVs are restricted to a closed geometry that is composed of two chambers connected by an opening which allows a continuous flow of agents between the two regions. We studied the temporal evolution of the density of particles around the opening and made a statistical comparison with the price evolution of bitcoin�(BTC). We found remarkable similarities between these two systems enabling us to study financial systems from a new perspective."
+    },
+    {
+      "title": "Data-Driven Simulation for Pedestrians Avoiding a Fixed Obstacle",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Xf5on3EAAAAJ&pagesize=100&citation_for_view=Xf5on3EAAAAJ:maZDTaKrznsC",
+      "externalArticleUrl": "https://link.springer.com/chapter/10.1007/978-3-030-55973-1_25",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3827/Martin_2020_FISICA_ponencia.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 0,
+      "authors": "Rafael F Martin, Daniel R Parisi",
+      "publicationDate": "2020",
+      "book": "Traffic and Granular Flow 2019",
+      "pages": "205-210",
+      "publisher": "Springer, Cham",
+      "description": " Data-driven simulation of pedestrian dynamics is an incipient and promising approach for building reliable microscopic pedestrian models. We propose a methodology based on generalized regression neural networks, which does not have to deal with a huge number of free parameters as in the case of multilayer neural networks. Although the method is general, we focus on the one pedestrian—one obstacle problem. The proposed model allows us to simulate the trajectory of a pedestrian avoiding an obstacle from any direction."
+    },
+    {
+      "title": "Differential neurophysiological correlates of retrieval of consolidated and reconsolidated memories in humans: an ERP and pupillometry study",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=HtavTBoAAAAJ&pagesize=100&citation_for_view=HtavTBoAAAAJ:5nxA0vEk-isC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S1074742720301234",
+      "pdfLink": "https://ri.conicet.gov.ar/bitstream/handle/11336/153779/CONICET_Digital_Nro.4876d317-3f86-4ef2-aefb-e7cb357d8380_A.pdf?sequence=2&isAllowed=y",
+      "totalCitations": 8,
+      "authors": "G Campos-Arteaga, Cecilia Forcato, G Wainstein, R Lagos, I Palacios-Garc�a, C Artigas, R Morales, Mar�a Eugenia Pedreira, E Rodr�guez",
+      "publicationDate": "2020/10/1",
+      "journal": "Neurobiology of Learning and Memory",
+      "volume": "174",
+      "pages": "107279",
+      "publisher": "Academic Press",
+      "description": "Consolidated memories can return to a labile state if they are reactivated by unpredictable reminders. To persist, active memories must be re-stabilized through a process known as reconsolidation. Although there is consistent behavioral evidence about this process in humans, the retrieval process of reconsolidated memories remains poorly understood. In this context, one fundamental question is whether the same or different neurophysiological mechanisms are involved in retrieval of consolidated and reconsolidated memories. Because it has been demonstrated that the exposure to the reconsolidation process may restructure and strengthen memories, we hypothesized distinct neurophysiological patterns during retrieval of reconsolidated memories. In addition, we hypothesized that interfering with the reconsolidation process using a new learning can prevent these neurophysiological changes. To test it�…"
+    },
+    {
+      "title": "Memory reconsolidation as a tool to endure encoding deficits in elderly",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=HtavTBoAAAAJ&pagesize=100&citation_for_view=HtavTBoAAAAJ:8k81kl-MbHgC",
+      "externalArticleUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237361",
+      "pdfLink": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237361",
+      "totalCitations": 5,
+      "authors": "Leonela M Tassone, Facundo A Urreta Ben�tez, Delfina Rochon, Paula B Mart�nez, Matias Bonilla, Candela S Leon, Carolina Muchnik, Patricia Solis, Nancy Medel, Silvia Kochen, Luis I Brusco, Malen D Moyano, Cecilia Forcato",
+      "publicationDate": "2020/8/7",
+      "journal": "Plos one",
+      "volume": "15",
+      "issue": "8",
+      "pages": "e0237361",
+      "publisher": "Public Library of Science",
+      "description": "Normal aging involves changes in the ability to acquire, consolidate and recall new information. It has been recently proposed that the reconsolidation process is also affected in older adults. Reconsolidation is triggered after reminder presentation, allowing memories to be modified: they can be impaired, strengthened or changed in their content. In young adults it was previously shown that the presentation of repetitive reminders induces memory strengthening one day after reactivation and the presentation of at least one reminder increases memory persistence several days after reactivation. However, until now this process has remained elusive in older adults. We hypothesize that older adults need a stronger reminder to induce memory strengthening through the reconsolidation process than young adults. To test this, we perform a three-day experiment. On day 1, participants learned 15 sound-word associations, on day 2 they received no reminders (NR group), one reminder (R group) or two rounds of reactivations (Rx2 group). Finally, they were tested on day 7. We found that, contrary to our hypothesis, older adults show a memory improvement triggered by repeated labilization/reconsolidation processes to an equal extent than young adults. These results open new perspectives into the use of reconsolidation to improve daily acquired information and the development of therapeutic home used tools to produce memory enhancement in healthy older adults or those with cognitive decline."
+    },
+    {
+      "title": "Reactivation during sleep with incomplete reminder cues rather than complete ones stabilizes long-term memory in humans",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=HtavTBoAAAAJ&pagesize=100&citation_for_view=HtavTBoAAAAJ:kNdYIx-mwKoC",
+      "externalArticleUrl": "https://www.nature.com/articles/s42003-020-01457-4",
+      "pdfLink": "https://www.nature.com/articles/s42003-020-01457-4",
+      "totalCitations": 4,
+      "authors": "Cecilia Forcato, Jens G Klinzing, Julia Carbone, Michael Radloff, Frederik D Weber, Jan Born, Susanne Diekelmann",
+      "publicationDate": "2020/12/4",
+      "journal": "Communications biology",
+      "volume": "3",
+      "issue": "1",
+      "pages": "1-13",
+      "publisher": "Nature Publishing Group",
+      "description": "Reactivation by reminder cues labilizes memories during wakefulness, requiring reconsolidation to persist. In contrast, during sleep, cued reactivation seems to directly stabilize memories. In reconsolidation, incomplete reminders are more effective in reactivating memories than complete reminders by inducing a mismatch, i.e. a discrepancy between expected and actual events. Whether mismatch is likewise detected during sleep is unclear. Here we test whether cued reactivation during sleep is more effective for mismatch-inducing incomplete than complete reminders. We first establish that only incomplete but not complete reminders labilize memories during wakefulness. When complete or incomplete reminders are presented during 40-min sleep, both reminders are equally effective in stabilizing memories. However, when extending the retention interval for another 7 hours (following 40-min sleep), only�…"
+    },
+    {
+      "title": "Emotional episodic memory formation during Covid-19 quarentine: preliminary results",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=HtavTBoAAAAJ&pagesize=100&citation_for_view=HtavTBoAAAAJ:ULOm3_A8WrAC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3487",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3487/5_LEON_SAN_2020.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 1,
+      "authors": "Candela S Le�n, Mat�as Bonilla, Facundo A Urreta Ben�tez, Cecilia Forcato",
+      "publicationDate": "2020",
+      "description": "\"Episodic memory is the ability to recover past experiences and projects ourselves into the future. It is related to contextual information (both spatially and  temporally). This type of memory is highly sensitive to aging, the passage of time, forgetfulness, interference and confusion. Furthermore, episodic memory processes are modulated by both anxiety and depression. People's mental health has deteriorated due to the Covid-19 pandemic, showing higher levels in both values. There is a general consensus that pleasant or aversive events are better remembered than neutral events. Regarding false memories, there is no such consensus. Some authors found that emotional content generates more false memories, however, it was also found that negative content reduces false memories. In this study we evaluated the effects of emotional variables, such as anxiety and depression, on memory encoding and consolidation of true and false details of aversive and neutral stories.\""
+    },
+    {
+      "title": "Sleep hygiene impacts on episodic memories in young and older adults during quarantine by Covid-19: preliminary results",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=HtavTBoAAAAJ&pagesize=100&citation_for_view=HtavTBoAAAAJ:YOwf2qJgpHMC",
+      "externalArticleUrl": "https://ri.conicet.gov.ar/handle/11336/130235",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Leonela Magali Tassone, Malen Daiana Moyano, C Solferino, Carolina Feldberg, Maria Florencia Tartaglini, I Brusco, Cecilia Forcato",
+      "publicationDate": "2020",
+      "publisher": "Sociedad Argentina de Investigaci�n en Neurociencias",
+      "description": "Sleep benefits off-line memory consolidation. Due to quarantine by Covid-19, sleep routines and sleep quality were affected. Preliminary results from our Lab showed that episodic memory formation is impaired by emotional variables, such as anxiety and depression. We hypothesize that sleep hygiene during quarantine positively impacts memory processes and emotional variables. To test this, we perform a 21-day study. Young and older participants were trained on the episodic memory task (video of neutral content). On day 7 they were tested and half of them began a sleep hygiene program. On day 14, participants were trained in a new episodic task and were tested on day 21. We found that young and older adults that received the sleep hygiene treatment had a positive impact on memory performance. Furthermore, older adults had better performance in memory recognition than young adults independently of the hygiene treatment. Moreover, older adults that received the sleep hygiene treatment showed a positive correlation between the total amount of sleep hygiene activities and the amount of correct recognition as well as a negative correlation with false recognition. We did not found a significant effect on emotional variables. These results demonstrate that sleep hygiene can be an effective tool for young and older adults to improve memory, however one-week treatment is not enough to induce emotional improvements."
+    },
+    {
+      "title": "Cued memory reactivation is more effective during slow wave sleep than sleep stage 2",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=HtavTBoAAAAJ&pagesize=100&citation_for_view=HtavTBoAAAAJ:MXK_kJrjxJIC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/bitstream/handle/123456789/2476/Forcato_p%C3%B3ser.pdf?sequence=1",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Julia Carbone, Cecilia Forcato, Jan Born, Susanne Diekelmann",
+      "publicationDate": "2020",
+      "description": "Todos los �tems de este Repositorio Institucional poseen la Licencia Creative Commons Atribuci�n-NoComercial-CompartirIgual 4.0 Internacional. La misma define las libertades y obligaciones que los usuarios finales disponen para la descarga y uso de los contenidos."
+    },
+    {
+      "title": "On the construction of explosive relation algebras",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=7ijXVZMAAAAJ&pagesize=100&citation_for_view=7ijXVZMAAAAJ:LPZeul_q3PIC",
+      "externalArticleUrl": "https://arxiv.org/abs/2009.02720",
+      "pdfLink": "https://arxiv.org/pdf/2009.02720",
+      "totalCitations": 0,
+      "authors": "Carlos G Lopez Pombo, Marcelo F Frias, Thomas SE Maibaum",
+      "publicationDate": "2020/9/6",
+      "journal": "arXiv preprint arXiv:2009.02720",
+      "description": "Fork algebras are an extension of relation algebras obtained by extending the set of logical symbols with a binary operator called fork. This class of algebras was introduced by Haeberer and Veloso in the early 90's aiming at enriching relation algebra, an already successful language for program specification, with the capability of expressing some form of parallel computation. The further study of this class of algebras led to many meaningful results linked to interesting properties of relation algebras such as representability and finite axiomatizability, among others. Also in the 90's, Veloso introduced a subclass of relation algebras that are expansible to fork algebras, admitting a large number of non-isomorphic expansions, referred to as explosive relation algebras. In this work we discuss some general techniques for constructing algebras of this type."
+    },
+    {
+      "title": "On the construction of explosive relation algebras",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=7ijXVZMAAAAJ&pagesize=100&citation_for_view=7ijXVZMAAAAJ:fQNAKQ3IYiAC",
+      "externalArticleUrl": "https://ui.adsabs.harvard.edu/abs/2020arXiv200902720L/abstract",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Carlos G Lopez Pombo, Marcelo F Frias, Thomas SE Maibaum",
+      "publicationDate": "2020/9",
+      "journal": "arXiv e-prints",
+      "pages": "arXiv: 2009.02720",
+      "description": "Fork algebras are an extension of relation algebras obtained by extending the set of logical symbols with a binary operator called fork. This class of algebras was introduced by Haeberer and Veloso in the early 90's aiming at enriching relation algebra, an already successful language for program specification, with the capability of expressing some form of parallel computation. The further study of this class of algebras led to many meaningful results linked to interesting properties of relation algebras such as representability and finite axiomatizability, among others. Also in the 90's, Veloso introduced a subclass of relation algebras that are expansible to fork algebras, admitting a large number of non-isomorphic expansions, referred to as explosive relation algebras. In this work we discuss some general techniques for constructing algebras of this type."
+    },
+    {
+      "title": "Photon-conserving generalized nonlinear Schr�dinger equation for frequency-dependent nonlinearities",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=K0FFD28AAAAJ&pagesize=100&citation_for_view=K0FFD28AAAAJ:blknAaTinKkC",
+      "externalArticleUrl": "https://opg.optica.org/abstract.cfm?uri=josab-37-2-445",
+      "pdfLink": "https://opg.optica.org/josab/upcoming_pdf.cfm?id=377891",
+      "totalCitations": 19,
+      "authors": "J Bonetti, N Linale, Alfredo D S�nchez, Santiago M Hern�ndez, Pablo Ignacio Fierens, Diego Fernando Grosz",
+      "publicationDate": "2020/2/1",
+      "journal": "JOSA B",
+      "volume": "37",
+      "issue": "2",
+      "pages": "445-450",
+      "publisher": "Optica Publishing Group",
+      "description": "Pulse propagation in nonlinear waveguides is most frequently modeled by resorting to the generalized nonlinear Schr�dinger equation (GNLSE). In recent times, exciting new materials with peculiar nonlinear properties, such as negative nonlinear coefficients and a zero-nonlinearity wavelength, have been demonstrated. Unfortunately, the GNLSE may lead to unphysical results in these cases since, in general, it does not preserve the number of photons and, in the presence of a negative nonlinearity, predicts a blue shift due to Raman scattering. In this paper, we put forth a modified GNLSE that can be used to model the propagation in media with an arbitrary, even negative, nonlinear coefficient. This novel photon-conserving GNLSE (pcGNLSE) ensures preservation of the photon number and can be solved by the same tried and trusted numerical algorithms used for the standard GNLSE. Finally, we compare results for soliton dynamics in fibers with different nonlinear coefficients obtained with the pcGNLSE and the GNLSE."
+    },
+    {
+      "title": "Modulation instability in waveguides with an arbitrary frequency-dependent nonlinear coefficient",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=K0FFD28AAAAJ&pagesize=100&citation_for_view=K0FFD28AAAAJ:YFjsv_pBGBYC",
+      "externalArticleUrl": "https://opg.optica.org/abstract.cfm?uri=ol-45-9-2498",
+      "pdfLink": "https://opg.optica.org/viewmedia.cfm?uri=ol-45-9-2498&seq=0&html=true",
+      "totalCitations": 15,
+      "authors": "N Linale, J Bonetti, Alfredo D S�nchez, S Hernandez, Pablo Ignacio Fierens, Diego Fernando Grosz",
+      "publicationDate": "2020/5/1",
+      "journal": "Optics letters",
+      "volume": "45",
+      "issue": "9",
+      "pages": "2498-2501",
+      "publisher": "Optica Publishing Group",
+      "description": "In this Letter, we present, for the first time, to the best of our knowledge, the modulation instability (MI) gain spectrum of waveguides with an arbitrary frequency-dependent nonlinear coefficient ensuring strict energy and photon-number conservation of the parametric process. This is achieved by starting from a linear stability analysis of the recently introduced photon-conserving nonlinear Schr�dinger equation. The derived MI gain is shown to predict some unique features, such as a nonzero gain extending beyond a zero-nonlinearity wavelength and a complex structure of the MI gain spectrum. Analytical results are shown to be in excellent agreement with numerical simulations."
+    },
+    {
+      "title": "Measuring self-steepening with the photon-conserving nonlinear Schr�dinger equation",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=K0FFD28AAAAJ&pagesize=100&citation_for_view=K0FFD28AAAAJ:GnPB-g6toBAC",
+      "externalArticleUrl": "https://opg.optica.org/abstract.cfm?uri=ol-45-16-4535",
+      "pdfLink": "https://opg.optica.org/Ol/fulltext.cfm?uri=ol-45-16-4535",
+      "totalCitations": 11,
+      "authors": "Nicolas Linale, Pablo Ignacio Fierens, Juan Bonetti, Alfredo D S�nchez, Santiago M Hern�ndez, Diego Fernando Grosz",
+      "publicationDate": "2020/8/15",
+      "journal": "Optics letters",
+      "volume": "45",
+      "issue": "16",
+      "pages": "4535-4538",
+      "publisher": "Optical Society of America",
+      "description": "We propose an original, simple, and direct method to measure self-steepening (SS) in nonlinear waveguides. Our proposal is based on results derived from the recently introduced photon-conserving nonlinear Schr�dinger equation (NLSE) and relies on the time shift experienced by soliton-like pulses due to SS upon propagation. In particular, a direct measurement of this time shift allows for a precise estimation of the SS parameter. Furthermore, we show that such an approach cannot be tackled by resorting to the NLSE. The proposed method is validated through numerical simulations, in excellent agreement with the analytical model, and results are presented for relevant spectral regions in the near infrared, the telecommunication band, and the mid infrared, and for realistic parameters of available laser sources and waveguides. Finally, we demonstrate the robustness of the proposed scheme against deviations expected in real-life experimental conditions, such as pulse shape, pulse peak power, pulsewidth, and/or higher-order linear and nonlinear dispersion."
+    },
+    {
+      "title": "Revisiting soliton dynamics in fiber optics under strict photon-number conservation",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=K0FFD28AAAAJ&pagesize=100&citation_for_view=K0FFD28AAAAJ:RYcK_YlVTxYC",
+      "externalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/9309249/",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 3,
+      "authors": "Nicol�s Linale, Pablo I Fierens, Diego F Grosz",
+      "publicationDate": "2020/12/28",
+      "journal": "IEEE Journal of Quantum Electronics",
+      "volume": "57",
+      "issue": "2",
+      "pages": "1-8",
+      "publisher": "IEEE",
+      "description": "We revisit the complex interplay between the Raman-induced frequency shift (RIFS) and the effect of self-steepening (SS) in the propagation of solitons, and in the framework of an equation that ensures strict conservation of the number of photons. The generalized nonlinear Schr�dinger equation (GNLSE) is shown to severely fail in preserving the number of photons for sub-100-fs solitons, leading to a large overestimation of the frequency shift. Furthermore, when considering the case of a frequency-dependent nonlinear coefficient, the GNLSE also fails to provide a good estimation of the time shift experienced by the soliton. We tackle these shortcomings of the GNLSE by resorting to the recently introduced photon-conserving GNLSE (pcGNLSE) and study the interplay between the RIFS and self-steepening. As a result, we make apparent the impact of higher-order nonlinearities on short-soliton propagation and�…"
+    },
+    {
+      "title": "Probing higher-order nonlinearities with ultrashort solitons",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=K0FFD28AAAAJ&pagesize=100&citation_for_view=K0FFD28AAAAJ:NaGl4SEjCO4C",
+      "externalArticleUrl": "https://opg.optica.org/abstract.cfm?uri=LS-2020-JTh4A.40",
+      "pdfLink": "https://opg.optica.org/viewmedia.cfm?uri=LS-2020-JTh4A.40&seq=0",
+      "totalCitations": 3,
+      "authors": "N Linale, DF Grosz, Pablo Ignacio Fierens",
+      "publicationDate": "2020/9/14",
+      "conference": "Laser Science",
+      "pages": "JTh4A. 40",
+      "publisher": "Optical Society of America",
+      "description": "We analyze the impact of higher-order nonlinearity on ultrashort solitons by means of a photon-conserving propagation equation, and propose an original and direct method for its estimation."
+    },
+    {
+      "title": "Narrowband and ultra-wideband modulation instability in nonlinear metamaterial waveguides",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=K0FFD28AAAAJ&pagesize=100&citation_for_view=K0FFD28AAAAJ:ns9cj8rnVeAC",
+      "externalArticleUrl": "https://opg.optica.org/abstract.cfm?uri=josab-37-11-3194",
+      "pdfLink": "https://opg.optica.org/viewmedia.cfm?seq=0&uri=josab-37-11-3194",
+      "totalCitations": 2,
+      "authors": "N. Linale, P. I. Fierens, S. M. Hernandez, J. Bonetti, D. F. Grosz",
+      "publicationDate": "2020",
+      "journal": "Journal of the Optical Society of America B",
+      "volume": "37",
+      "issue": "11",
+      "pages": "3194-3199",
+      "publisher": "The Optical Society",
+      "description": "Waveguides based on metamaterials may exhibit strongly frequency-dependent nonlinearities. In this work, we focus on the phenomenon of modulation instability in this type of waveguide, departing from a new modeling equation that ensures strict conservation of both the energy and photon number of the parametric process. In particular, we analyse the case of a waveguide with a linearly frequency-dependent nonlinear coefficient, revealing unique features such as narrowband and ultra-wideband gain spectra and the suppression of the power cutoff giving rise to an ever-growing MI gain. These markedly distinct regimes are enabled by self-steepening (SS) and manifest themselves depending upon the magnitude and sign of the SS parameter. We believe these findings to be most relevant in the context of mid-IR supercontinuum sources."
+    },
+    {
+      "title": "Nonlinear optics in waveguides doped with dimers of metal nanoparticles",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=K0FFD28AAAAJ&pagesize=100&citation_for_view=K0FFD28AAAAJ:RGFaLdJalmkC",
+      "externalArticleUrl": "https://opg.optica.org/abstract.cfm?uri=ls-2020-JTh4A.24",
+      "pdfLink": "https://opg.optica.org/viewmedia.cfm?uri=LS-2020-JTh4A.24&seq=0",
+      "totalCitations": 0,
+      "authors": "Alfredo D S�nchez, N Linale, DF Grosz, Pablo Ignacio Fierens",
+      "publicationDate": "2020/9/14",
+      "conference": "Laser Science",
+      "pages": "JTh4A. 24",
+      "publisher": "Optical Society of America",
+      "description": "We investigate the nonlinear response of waveguides doped with dimers of noble-metal nanoparticles using a simple effective model. Our results show a markedly distinctive response depending on the dimer gap."
+    },
+    {
+      "title": "Neurophotonics Approaches for the Study of Pattern Separation",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=pNTPLqAAAAAJ&pagesize=100&citation_for_view=pNTPLqAAAAAJ:u-x6o8ySG0sC",
+      "externalArticleUrl": "https://www.frontiersin.org/articles/10.3389/fncir.2020.00026/full",
+      "pdfLink": "https://www.frontiersin.org/articles/10.3389/fncir.2020.00026/full",
+      "totalCitations": 0,
+      "authors": "Cristian Morales, Juan Facundo Morici, Magdalena Miranda, Francisco Tom�s Gallo, Pedro Bekinschtein, Noelia V Weisstaub",
+      "publicationDate": "2020/6/9",
+      "source": "Frontiers in Neural Circuits",
+      "volume": "14",
+      "pages": "26",
+      "publisher": "Frontiers Media SA",
+      "description": "Successful memory involves not only remembering over time but also keeping memories distinct. Computational models suggest that pattern separation appears as a highly efficient process to discriminate between overlapping memories. Furthermore, lesion studies have shown that the dentate gyrus (DG) participates in pattern separation. However, these manipulations did not allow identifying the neuronal mechanism underlying pattern separation. The development of different neurophotonics techniques, together with other genetic tools, have been useful for the study of the micro-circuit involved in this process. It has been shown that less-overlapped information would generate distinct neuronal representations within the granule cells. However, since glutamatergic nor GABAergic cells in the DG are not functionally or structurally homogeneous, identifying the specific role of the different subpopulations remains elusive. Then, understanding pattern separation requires the ability to manipulate a temporal and spatially specific subset of cells in the DG and ideally to analyze DG cells activity in individuals performing a pattern separation dependent behavioral task. Thus, neurophotonics and calcium imaging techniques in conjunction with activity-dependent promoters and high-resolution microscopy appear as important tools for this endeavor. In this work, we review how different neurophotonics techniques have been implemented in the elucidation of a neuronal network that supports pattern separation alone or in combination with traditional techniques. We discuss the limitation of these techniques, and how other neurophotonic techniques could�…"
+    },
+    {
+      "title": "Out of body experience during sleep paralysis: an altered state of consciousness. Preliminary results",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=pNTPLqAAAAAJ&pagesize=100&citation_for_view=pNTPLqAAAAAJ:Tyk-4Ss8FVUC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3486",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Nerea Herrero, Francisco Gallo, Pablo Gleiser, Cecilia Forcato",
+      "publicationDate": "2020",
+      "description": "We observed that both groups described the state of consciousness associated with the experience as similar to wakefulness or even increased. This augmented state was related to a subjective perception of increase in information processing. I-OBEs significantly identified sounds and body vibrations before the OBE was initiated, and thus we suggest that they could be considered aura sensations for OBE initiation. Importantly, we found that I-OBEs showed significantly more positive emotions associated with the experience (like peace and joy) while S-OBEs showed more negative emotions. At present, there is no specific treatment for sleep paralysis. Sleep hygiene is recommended and selective serotonin reuptake inhibitors are used but they are not always effective⁸. Thus, we propose that the OBE could be used as a way to overcome sleep paralysis."
+    },
+    {
+      "title": "Compressive behavior of rigid polyurethane foams nanostructured with bacterial nanocellulose at low and intermediate strain rates",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B1S_cZgAAAAJ&pagesize=100&citation_for_view=B1S_cZgAAAAJ:_kc_bZDykSQC",
+      "externalArticleUrl": "https://onlinelibrary.wiley.com/doi/abs/10.1002/app.48701",
+      "pdfLink": "https://www.researchgate.net/profile/Emmanuel-Flores-Johnson/publication/337164268_Compressive_behavior_of_rigid_polyurethane_foams_nanostructured_with_bacterial_nanocellulose_at_low_and_intermediate_strain_rates/links/5e729b80299bf1571848aba0/Compressive-behavior-of-rigid-polyurethane-foams-nanostructured-with-bacterial-nanocellulose-at-low-and-intermediate-strain-rates.pdf",
+      "totalCitations": 17,
+      "authors": "Leonel Mat�as Chiacchiarelli, Patricia Cerrutti, Emmanuel A Flores‐Johnson",
+      "publicationDate": "2020/5/20",
+      "journal": "Journal of Applied Polymer Science",
+      "volume": "137",
+      "issue": "20",
+      "pages": "48701",
+      "publisher": "John Wiley & Sons, Inc.",
+      "description": " Nanocellulose reinforced foams are lightweight with improved mechanical properties; however, the strain‐rate effect on their mechanical response is not yet fully understood. In this work, rigid polyurethane foams (PUFs) nanostructured with bacterial nanocellulose at 0.2 wt % (BNCF) and without it (PUF) are synthesized and subjected to compression tests at different strain rates. The BNC acts as a nucleation agent, reducing the cell size but maintaining a similar apparent density of 40.4 � 3.3 kg m−3. Both BNCF and PUF exhibit strain‐rate effect on yield stress and densification strain. The BNCF exhibits localized progressive crushing and reduced friability, causing a remarkable recovery in the transverse direction. Numerical simulations show that functionally graded foams subjected to impact could be designed using different layers of PUF and BNCF to vary energy absorption and acceleration rate. The results�…"
+    },
+    {
+      "title": "Improved fatigue performance of nanostructured bidirectional fiberglass-polyurethane composites under uniaxial state and high deformations",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B1S_cZgAAAAJ&pagesize=100&citation_for_view=B1S_cZgAAAAJ:4DMP91E08xMC",
+      "externalArticleUrl": "https://www.scielo.br/j/rmat/a/wxZPdxqCFcNvqFtgMy6bNBm/abstract/?lang=en",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Alberto Belardi, Nicol�s A Oyarzabal, Leonel Mat�as Chiacchiarelli",
+      "publicationDate": "2020/9/16",
+      "journal": "Mat�ria (Rio de Janeiro)",
+      "volume": "25",
+      "publisher": "Laborat�rio de Hidrog�nio, Coppe-Universidade Federal do Rio de Janeiro, em coopera��o com a Associa��o Brasileira do Hidrog�nio, ABH2",
+      "description": "Se fabricaron placas de material compuesto con refuerzo en fibra de vidrio bidireccional [+/-45]4S y matriz poliuretano nanoestructurado usando la t�cnica de infusi�n asistida por vac�o. Se utiliz� nanos�lice (NS) hidrof�bica con porcentajes del 1 y 2 % en peso. A pesar de la NS, la permeabilidad de la preforma no aument� significativamente, obteni�ndose valores elevados de Vf (52%) y una buena impregnaci�n del refuerzo, comprobada mediante microscop�a SEM. Los ensayos de tracci�n uniaxial cuasiest�ticos presentaron una elevada deformaci�n a rotura (emax>10%) y valores de resistencia �ltima (RUTS) y m�dulo el�stico (E) que disminuyeron en funci�n del agregado de NS. Por el contrario, los ensayos de fatiga controlados por tensi�n indicaron que el agregado de NS hasta el 2% permiti� mejorar la performance en fatiga. En concreto, los par�metros a y b del modelo emp�rico lineal aumentaron su valor absoluto en un 77 % y 92,7 %, respectivamente. Esta mejora se corrobor� a trav�s de la evaluaci�n del m�dulo el�stico residual. Finalmente, los laminados presentaron una acumulaci�n inel�stica de deformaci�n (“ratchetting”), aspecto que fue evaluado para dos frecuencias, 0.2Hz y 2 Hz."
+    },
+    {
+      "title": "Mejora en el comportamiento a la fatiga de compuestos nanoestructurados bidireccionales de fibra de vidrio y poliuretano bajo cargas uniaxiales y altas deformaciones",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B1S_cZgAAAAJ&pagesize=100&citation_for_view=B1S_cZgAAAAJ:aqlVkmm33-oC",
+      "externalArticleUrl": "https://www.scielo.br/j/rmat/a/wxZPdxqCFcNvqFtgMy6bNBm/abstract/?lang=es",
+      "pdfLink": "https://www.scielo.br/j/rmat/a/wxZPdxqCFcNvqFtgMy6bNBm/?lang=es",
+      "totalCitations": 0,
+      "authors": "Alberto Belardi, Nicol�s A Oyarzabal, Leonel Mat�as Chiacchiarelli",
+      "publicationDate": "2020/9/16",
+      "journal": "Mat�ria (Rio de Janeiro)",
+      "volume": "25",
+      "publisher": "Laborat�rio de Hidrog�nio, Coppe-Universidade Federal do Rio de Janeiro, em coopera��o com a Associa��o Brasileira do Hidrog�nio, ABH2",
+      "description": "Se fabricaron placas de material compuesto con refuerzo en fibra de vidrio bidireccional [+/-45]4S y matriz poliuretano nanoestructurado usando la t�cnica de infusi�n asistida por vac�o. Se utiliz� nanos�lice (NS) hidrof�bica con porcentajes del 1 y 2 % en peso. A pesar de la NS, la permeabilidad de la preforma no aument� significativamente, obteni�ndose valores elevados de Vf (52%) y una buena impregnaci�n del refuerzo, comprobada mediante microscop�a SEM. Los ensayos de tracci�n uniaxial cuasiest�ticos presentaron una elevada deformaci�n a rotura (emax>10%) y valores de resistencia �ltima (RUTS) y m�dulo el�stico (E) que disminuyeron en funci�n del agregado de NS. Por el contrario, los ensayos de fatiga controlados por tensi�n indicaron que el agregado de NS hasta el 2% permiti� mejorar la performance en fatiga. En concreto, los par�metros a y b del modelo emp�rico lineal aumentaron su valor absoluto en un 77 % y 92,7 %, respectivamente. Esta mejora se corrobor� a trav�s de la evaluaci�n del m�dulo el�stico residual. Finalmente, los laminados presentaron una acumulaci�n inel�stica de deformaci�n (“ratchetting”), aspecto que fue evaluado para dos frecuencias, 0.2Hz y 2 Hz."
+    },
+    {
+      "title": "BACTERIAL NANOCELLULOSE AS A HARD SEGMENT",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=B1S_cZgAAAAJ&pagesize=100&citation_for_view=B1S_cZgAAAAJ:Wp0gIr-vW9MC",
+      "externalArticleUrl": "https://www.researchgate.net/profile/Leonel-Chiacchiarelli/publication/343063249_Nanostructured_rigid_polyurethane_foams_with_improved_specific_thermo-mechanical_properties_using_Bacterial_Nanocellulose_as_a_Hard_Segment/links/5f16de3992851cd5fa39bc91/Nanostructured-rigid-polyurethane-foams-with-improved-specific-thermo-mechanical-properties-using-Bacterial-Nanocellulose-as-a-Hard-Segment.pdf",
+      "pdfLink": "https://www.researchgate.net/profile/Leonel-Chiacchiarelli/publication/343063249_Nanostructured_rigid_polyurethane_foams_with_improved_specific_thermo-mechanical_properties_using_Bacterial_Nanocellulose_as_a_Hard_Segment/links/5f16de3992851cd5fa39bc91/Nanostructured-rigid-polyurethane-foams-with-improved-specific-thermo-mechanical-properties-using-Bacterial-Nanocellulose-as-a-Hard-Segment.pdf",
+      "totalCitations": 0,
+      "authors": "Leonel M Chiacchiarelli",
+      "publicationDate": "2020/7",
+      "journal": "arXiv preprint arXiv:2007.08559",
+      "description": "Bacterial nanocellulose (BNC) was used to synthesize rigid polyurethane foams (RPUFs) based on its reaction with the isocyanate precursor (ISO route) and also by using the conventional procedure (POL route). The results indicated that at only 0.1 wt.% of BNC, drastic improvements of specific elastic compressive modulus (+ 244.2%) and strength (+ 77.5%) were found. The reaction of BNC with the precursor was corroborated through the measurement of isocyanate number and the BNC caused a significant nucleation effect, decreasing the cell size up to 39.7%. DSC analysis revealed that the BNC had a strong effect on post-cure enthalpy, decreasing its value when the ISO route was implemented. DMA analysis revealed that the RPUFs developed using the ISO route proved* lmchiacchiarelli@ yahoo. com. ar, TEL/FAX:+ 541143043020, Av. Gral Las Heras 2214, AAR1127, Buenos Aires, Argentina arXiv: 2007.08559 v1 [physics. app-ph] 16 Jul 2020"
+    },
+    {
+      "title": "LPV Control of Current Source Inverter synchronized with the grid",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=q19rcJoAAAAJ&pagesize=100&citation_for_view=q19rcJoAAAAJ:roLk4NBRz8UC",
+      "externalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/9387674/",
+      "pdfLink": "http://latamt.ieeer9.org/index.php/transactions/article/download/3672/940",
+      "totalCitations": 2,
+      "authors": "Alejandro S Ghersin, Pablo Cossutta, Miguel Aguirre",
+      "publicationDate": "2020/10",
+      "journal": "IEEE Latin America Transactions",
+      "volume": "18",
+      "issue": "10",
+      "pages": "1826-1833",
+      "publisher": "IEEE",
+      "description": "Power inverters are widely used in grid connected applications, specially with the increasing use of renewable energies, to improve power quality and increase efficiency. However some parameter associated to the grid and/or the inverters, such as the grid frequency, needs to be known or properly estimated. This estimation introduces an uncertainty in the system and suffer transients due to the estimator. Linear Parameter Varying (LPV) control can be used to account for those uncertainties. This paper presents a feedback control based on a LPV control law to improve the power quality of a grid connected Current Source Inverter (CSI), significantly reducing the total harmonic distortion (THD) of the grid generator current. A linear model of the interconnection is presented, where the frequency of the grid is assumed variable being estimated together with its phase through a Phase Locked Loop (PLL). The LPV�…"
+    },
+    {
+      "title": "Dynamic modelling of alkaline self-pressurized electrolyzers: a phenomenological-based semiphysical approach",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=TWJ9eoQAAAAJ&pagesize=100&citation_for_view=TWJ9eoQAAAAJ:2osOgNQ5qMEC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S0360319920321753",
+      "pdfLink": "https://digital.csic.es/bitstream/10261/227623/1/2354-Dynamic-modelling-of-Alkaline-self-pressurized-electrolyzers_-a-phenomenological-based-semiphysical-approach.pdf",
+      "totalCitations": 20,
+      "authors": "Mart�n David, Hern�n �lvarez, Carlos Ocampo-Martinez, Ricardo S�nchez-Pe�a",
+      "publicationDate": "2020/9/3",
+      "journal": "International Journal of Hydrogen Energy",
+      "volume": "45",
+      "issue": "43",
+      "pages": "22394-22407",
+      "publisher": "Pergamon",
+      "description": "This paper proposes a phenomenological based semiphysical model (PBSM) for a self-pressurized alkaline electrolyzer. The model, based on mass and energy balances, represents the dynamic behaviour of hydrogen and oxygen production using electrolysis. The model allows to anticipate operational variables as dynamic responses in the concentrations of the electrolytic cell, and variations in both, level and pressure, at the gas separation chambers due to the change in electric current. The model parameters have been adjusted based on experimental measurements taken from an available prototype and through a suitable identification process. Simulation results replicate the current dynamic response of the experimental self-pressurized electrolyzer assembly. This model proves to be useful in the improvement of the control of gas production rate in this kind of assemblies, both as a validated simulation�…"
+    },
+    {
+      "title": "Desarrollo de modelos h�bridos para la optimizaci�n de la gesti�n energ�tica de una red el�ctrica con conexi�n a l�nea de suministro, generaci�n mediante fuentes renovables�…",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=42SA-7oAAAAJ&pagesize=100&citation_for_view=42SA-7oAAAAJ:hqOjcs7Dif8C",
+      "externalArticleUrl": "http://www3.fi.mdp.edu.ar/otec/revista/index.php/AACINI-RIII/article/view/8",
+      "pdfLink": "http://www3.fi.mdp.edu.ar/otec/revista/index.php/AACINI-RIII/article/download/8/5",
+      "totalCitations": 0,
+      "authors": "Mauricio Agust�n Sabor, Alan Aeron Jones, Leopoldo De Bernardez, Iv�n Villaboa",
+      "publicationDate": "2020/6/23",
+      "journal": "AACINI-Revista Internacional de Ingenier�a Industrial",
+      "issue": "1",
+      "pages": "17-33",
+      "description": "Se desarroll� un modelo h�brido para la gesti�n de la energ�a de una red el�ctrica con conexi�n a l�nea de suministro, generaci�n mediante fuentes renovables y no renovables, almacenamiento en bater�as, producci�n de hidr�geno y consumo. El modelo permite no solamente optimizar el desempe�o de la red el�ctrica propuesta sino tambi�n analizar instalaciones de producci�n y acumulaci�n de energ�a considerando la oferta y la demanda, los costos involucrados y los precios de compra y venta de energ�a a la red."
+    },
+    {
+      "title": "Computer-assisted surgery for replacement of the temporomandibular joint with customized prostheses: can we validate the results?",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=lhk5azwAAAAJ&pagesize=100&citation_for_view=lhk5azwAAAAJ:qjMakFHDy7sC",
+      "externalArticleUrl": "https://link.springer.com/article/10.1007/s10006-020-00858-3",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 9,
+      "authors": "Luis Alejandro Boccalatte, MG Nassif, Marcelo Fernando Figari, NL G�mez, MC Argibay, AV Mancino, LE Ritacco",
+      "publicationDate": "2020/9",
+      "journal": "Oral and Maxillofacial Surgery",
+      "volume": "24",
+      "issue": "3",
+      "pages": "317-325",
+      "publisher": "Springer Berlin Heidelberg",
+      "description": "                                Purpose                 Replacing the temporomandibular joint poses an important challenge to maxillofacial surgeons, and for certain disorders, it represents the treatment’s gold standard. Computer-assisted surgery (comprising preoperative virtual planning, virtual intraoperative navigation and 3D printing) is a useful tool for this type of surgery. However, we do not know if and how much the final position of the prosthesis differs, in absolute values, from what was planned virtually in the preoperative phase. We propose a comparative result validation system for temporomandibular joint replacement                                               Methods                 In the present study, we propose a comparative validation system using overlapping images, between the model obtained with preoperative virtual planning and the postoperative result.                                               Results                 The mean difference for all screws�…"
+    },
+    {
+      "title": "Obtaining accurate and calibrated coil models for transcranial magnetic stimulation using magnetic field measurements",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=lhk5azwAAAAJ&pagesize=100&citation_for_view=lhk5azwAAAAJ:UeHWp8X0CEIC",
+      "externalArticleUrl": "https://link.springer.com/article/10.1007/s11517-020-02156-2",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3261/Mancino_2020_BIOINGENIERIA_embargo_12_meses.pdf?sequence=1&isAllowed=n",
+      "totalCitations": 3,
+      "authors": "Axel V Mancino, Federico E Milano, F Martin Bertuzzi, Claudio G Yampolsky, Lucas E Ritacco, Marcelo R Risk",
+      "publicationDate": "2020/7",
+      "journal": "Medical & Biological Engineering & Computing",
+      "volume": "58",
+      "issue": "7",
+      "pages": "1499-1514",
+      "publisher": "Springer Berlin Heidelberg",
+      "description": " Currently, simulations of the induced currents in the brain produced by transcranial magnetic stimulation (TMS) are used to elucidate the regions reached by stimuli. However, models commonly found in the literature are too general and neglect imperfections in the windings. Aiming to predict the stimulation sites in patients requires precise modeling of the electric field (E-field), and a proper calibration to adequate to the empirical data of the particular coil employed. Furthermore, most fabricators do not provide precise information about the coil geometries, and even using X-ray images may lead to subjective interpretations. We measured the three components of the vector magnetic field induced by a TMS figure-8 coil with spatial resolutions of up to 1 mm. Starting from a computerized tomography-based coil model, we applied a multivariate optimization algorithm to automatically modify the original model and obtain�…"
+    },
+    {
+      "title": "La prisi�n preventiva y su relaci�n con el tipo de delito y la superpoblaci�n en el Servicio Penitenciario Federal Argentino",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=hOLbs1gAAAAJ&pagesize=100&citation_for_view=hOLbs1gAAAAJ:qjMakFHDy7sC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/bitstream/handle/123456789/3350/TP%20Final%20Recalde%20VF.pdf?sequence=1",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3350/TP%20Final%20Recalde%20VF.pdf?sequence=1",
+      "totalCitations": 0,
+      "authors": "Carlos Gustavo Recalde Chamorro",
+      "publicationDate": "2020/4/6",
+      "description": "La situaci�n del Sistema Penitenciario Federal en Argentina es un tema preocupante desde ya hace varios a�os atr�s para el estado nacional. Desde el a�o 2002 hasta el 2018 seg�n datos publicados en el Ministerio de Justicia, la poblaci�n alojada en las c�rceles federales creci� un 111%, mientras que en el mismo periodo la poblaci�n a nivel pa�s, solo creci� un 18%[INDEC, 2018].En virtud de estos incrementos alarmantes en el sistema penitenciario, es importante realizar un estudio en detalle de la poblaci�n carcelaria en Argentina, la tipolog�a de los delitos y su condici�n legal. Desde el a�o 2002 el Sistema Nacional de Estad�sticas sobre Ejecuci�n de la Pena (SNEEP) contribuye con informaci�n peri�dica con respecto a los internos privados de libertad en las c�rceles federales. Pero sin embargo, el an�lisis de las estad�sticas aplicadas son las cl�sicas. El problema reside en que estos an�lisis no reflejan un prorrateo real de las actividades para desarrollar acciones o medidas preventivas para impedir o predecir hechos delictivos."
+    },
+    {
+      "title": "Evoluci�n del COVID-19 en Argentina: comparaci�n con China, Espa�a e Italia",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=hOLbs1gAAAAJ&pagesize=100&citation_for_view=hOLbs1gAAAAJ:u5HHmVD_uO8C",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3355",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Ver�nica Gisela Ban�s",
+      "publicationDate": "2020",
+      "description": "\"El objetivo de este estudio es entender si Argentina tom� medidas preventivas suficientes y a tiempo para evitar los picos de casos positivos y muertes que tuvieron China, Espa�a e Italia. Con el fin de poder realizar dicho estudio, se har� un an�lisis comparativo entre los cuatro pa�ses anteriormente citados para entender cu�l y c�mo fue la evoluci�n de sus contagios y muertes, qu� medidas preventivas tomaron, cu�l fue el impacto que las mismas tuvieron, entre otras.\""
+    },
+    {
+      "title": "Pandemia y Poderes Judiciales: un punto de apalancamiento hist�rico en la incorporaci�n de tecnolog�as",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=XouNI74AAAAJ&pagesize=100&citation_for_view=XouNI74AAAAJ:u5HHmVD_uO8C",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3282",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3282/Castiglione_2020_1.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 0,
+      "authors": "Sara Noem� Castiglioni",
+      "publicationDate": "2020",
+      "journal": "Revista Electr�nica Instituto de Investigaciones Jur�dicas y Sociales Ambrosio L. Gioja",
+      "issue": "25",
+      "pages": "24-40",
+      "description": "\"Este art�culo se propone describir las estrategias de incorporaci�n de tecnolog�as que implementaron los Poderes Judiciales de Argentina en relaci�n con la pandemia de COVID-19 durante el per�odo del 17 marzo a julio 2020, compararlas con modelos de aprendizaje organizacional y reflexionar sobre la posibilidad de utilizar este acontecimiento hist�rico como punto de apalancamiento para la incorporaci�n de tecnolog�as en el servicio de justicia con miras a construir un servicio m�s cercano al ciudadano y de acuerdo con los paradigmas de gobierno abierto. Esta investigaci�n se encuadra bajo un dise�o cualitativo, de car�cter inductivo, exploratorio y flexible. Para responder a las preguntas de investigaci�n se realizaron 34 entrevistas en profundidad y 27 observaciones participantes.\""
+    },
+    {
+      "title": "Preparation and characterization of nanoencapsulated synthetic soybean oil derivative-an abundant and environmentally friendly phase change material-heat transfer analysis and�…",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=jQS_A1gAAAAJ&pagesize=100&citation_for_view=jQS_A1gAAAAJ:UeHWp8X0CEIC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S2213138820312212",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3222/Bergamo_2020_ING.%20QUIMICA.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 5,
+      "authors": "Jorge Bergamo, Ezequiel Rossi, Juan Mart�n Maffi, Laura De Angelis, Mar�a In�s Errea",
+      "publicationDate": "2020/10/1",
+      "journal": "Sustainable Energy Technologies and Assessments",
+      "volume": "41",
+      "pages": "100794",
+      "publisher": "Elsevier",
+      "description": "The thermal properties of a phase change material (PCM), together with its environmental health risks and natural abundance are important aspects to consider when choosing one for a domestic application. In this work, a soybean oil derivative, which comes from one of the most abundant crops on Earth, is proposed as PCM. A heat transfer model was developed to compare the performance of the proposed PCM, under the same boundary and initial conditions, with other materials reported in literature that have well-known disadvantages in terms of flammability, renewability, abundance and environmental care. Results showed that its performance was as good as theirs. Nanocapsules of the PCM coated with TiO2 were prepared and characterized physical, thermal and morphologically. Thermal studies were carried out in a device designed and constructed simulating a water heater, and a reduction of about 70�…"
+    },
+    {
+      "title": "Mechanisms and Conditions that Affect Phase Inversion Processes. The Case of High‐Impact Polystyrene",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=jQS_A1gAAAAJ&pagesize=100&citation_for_view=jQS_A1gAAAAJ:u-x6o8ySG0sC",
+      "externalArticleUrl": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pen.25304",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/1861/Maffi_2019.pdf?sequence=1",
+      "totalCitations": 4,
+      "authors": "J. M. Maffi, N. Casis, P. Acu�a, G. Morales, D. Estenoz",
+      "publicationDate": "2020/3",
+      "journal": "Polymer Engineering & Science",
+      "volume": "60",
+      "issue": "3",
+      "pages": "491-502",
+      "publisher": "Wiley",
+      "description": "The phase inversion (PI) during the bulk polymerization of the styrene–polybutadiene system (high impact polystyrene manufacturing process) is empirically and theoretically studied in this article. In the experimental work, a series of reactions were performed with benzoyl peroxide as initiator and at temperatures considered of industrial interest (80�C and 90�C), varying also the reactor stirring level. PI was determined by offline viscosity measurements and verified by scanning transmission electron microscopy. The rheological behavior of each reacting system was analyzed and an empirical correlation to predict its apparent viscosity from fundamental reaction parameters was derived. This was achieved successfully for both before and after the PI point. POLYM. ENG. SCI., 60:491–502, 2020. � 2019 Society of Plastics Engineers"
+    },
+    {
+      "title": "COVID-19 pandemic: A paradigm shift in the West?",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Vw2ACFAAAAAJ&pagesize=100&citation_for_view=Vw2ACFAAAAAJ:W7OEmFMy1HYC",
+      "externalArticleUrl": "https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-892560",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 1,
+      "authors": "Merlina Conti, Pamela Bellucci, Mart�n Schick, Mar�a Julieta Trobbiani, Natalia Jullier, Gustavo Panza, Dami�n Garayalde, Nahuel Mateo, Ezequiel Rojas, Cristian S�nchez",
+      "publicationDate": "2020",
+      "journal": "Revista Chilena de Anestesia",
+      "pages": "464-472",
+      "description": "In this article, we develop evidence-based recommendations to efficiently administer the limited resources of the healthcare facilities in medium and low income countries in the context of a pandemic. We searched MedLine database using the MeSH terms “Pneumonia, viral/prevention and control”,“Pneumonia, viral/transmission”,“Coronavirus Infections/prevention and control”,“Coronavirus Infections/transmission”,“COVID-19”,“Masks/classification”,“Masks/microbiology”,“Respiratory Protective Devices”, among others. We recommend that the general population wears a face mask. On the institutional level, ventilation and appropriate bed distancing proved to be effective preventive measures. The most important factor in the containment of an outbreak is the timely identification of infected patients. Negative pressure and ventilation systems are also highly recommended. Using a full face mask together with a surgical�…"
+    },
+    {
+      "title": "Pandemia COVID-19:� un cambio de paradigma en Occidente?",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Vw2ACFAAAAAJ&pagesize=100&citation_for_view=Vw2ACFAAAAAJ:Y0pCki6q_DkC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3256",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3256/Conti_2020_BIOINGENIERIA_AA.pdf?sequence=3&isAllowed=y",
+      "totalCitations": 0,
+      "authors": "Merlina Conti, Pamela Bellucci, Mart�n Schick, Mar�a Julieta Trobbiani, Natalia Jullier, Gustavo Panza, Dami�n Garayalde, Nahuel Mateo, Ezequiel Rojas, Cristian S�nchez",
+      "publicationDate": "2020",
+      "description": "\"Elaboramos recomendaciones basadas en la evidencia para administrar los recursos imprescindibles en los centros sanitarios, en contexto de pandemia, en un pa�s de bajos recursos econ�micos. Se realizaron b�squedas MedLine utilizando t�rminos MeSH “Pneumonia, viral/prevention and control”, “Pneumonia, viral/transmission”, “Coronavirus Infections/prevention and control”, “Coronavirus Infections/transmission”, “COVID-19”, “Masks/classification”, “Masks/microbiology”, “Respiratory Protective Devices”, entre otros. Se recomienda que la poblaci�n general porte mascarilla. A nivel institucional, la ventilaci�n y el correcto distanciamiento de las camas son medidas de prevenci�n efectivas. El factor m�s importante en la contenci�n de un brote es la identificaci�n oportuna de pacientes infectados. Se recomienda el uso de presi�n negativa y sistemas de ventilaci�n. Ante la escasez de mascarillas tipo N95, el uso de protectores faciales totales y mascarilla quir�rgica es una opci�n factible. Proponemos una estrategia integral con medidas de afrontamiento para entidades sanitarias y la sociedad en general.\""
+    },
+    {
+      "title": "Design of ESD protections for ECG applications",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=I603PAQAAAAJ&pagesize=100&citation_for_view=I603PAQAAAAJ:UeHWp8X0CEIC",
+      "externalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/9046370/",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/2216/Gardella_2020_ponencia_ING_ELECTRONICA.pdf?sequence=1",
+      "totalCitations": 2,
+      "authors": "Pablo Jes�s Gardella, Eduardo Baez, Juan Manuel Cesaretti",
+      "publicationDate": "2020/2/27",
+      "conference": "2020 Argentine Conference on Electronics (CAE)",
+      "pages": "104-107",
+      "publisher": "IEEE",
+      "description": "This paper presents the design of Electrostatic Discharge (ESD) protections for a remote Electroencephalograph (ECG). Design and layout guidelines are analyzed to improve the ESD robustness of a Grounded-Gate NMOS (GGNMOS) cell based on a single well CMOS-only process. Experimental validation is done by means of a Time Domain Reflectometry (TDR) technique known as Transmission Line Pulse (TLP) testing. The silicon implementation of the proposed design passes �3700V in the Human-Body Model (HBM)."
+    },
+    {
+      "title": "False memory formation during Covid-19 quarantine: age, sleep quality and emotional variables. Preliminary results",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=AlBnlfYAAAAJ&pagesize=100&citation_for_view=AlBnlfYAAAAJ:d1gkVwhDpl0C",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3482",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Mat�as Bonilla, Candela S Le�n, Facundo A Urreta Ben�tez, Natalia Lippmann-Mazzaglia, Camila Calvo, Manuel Garrido, Cecilia Forcato",
+      "publicationDate": "2020",
+      "description": "1 Wade KA, Garry M, Read JD, Lindsay DS (2002). Psychon B review, 9 (3), 597-603. 2 Aizpurua A, Garc�a-Bajos E, Migueles M (2009). Estudios de Psicolog�a, 30 (3), 291-302. 3 Gallo DA, Cotel SC, Moore CD, Schacter DL (2007). Psychol Aging, 22 (1), 209. 4 Roberts P (2002). Curr Psychol, 21 (3), 240-252. 5 Howe ML, Malone C (2011). Memory, 19 (2), 192–201. 6 Etchevers et al (2020). OPSA. Recuperado de: http://www. psi. uba. ar/opsa/# informes"
+    },
+    {
+      "title": "Declarative memory consolidation dynamics: new time windows and its implications for clinical application",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=MOYqnUEAAAAJ&pagesize=100&citation_for_view=MOYqnUEAAAAJ:W7OEmFMy1HYC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3480",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Malen D Moyano, Mat�as Bonilla, Marcelo F Blanco, Ignacio Brusco, Mar�a Eugenia Pedreira, Laura Kaczer, Cecilia Forcato",
+      "publicationDate": "2020",
+      "description": "After encoding, memories go through a labile state followed by a stabilization process known as consolidation1. Once consolidated they can enter a new labile state after the presentation of a reminder (cue) of the original memory, followed by a period of re-stabilization (reconsolidation) 2. In both processes, once stabilization/re-stabilization is accomplished the memory cannot be modified3. Currently there are studies that show a rapid stabilization after 30 min4, 5, while others studies show that stabilization occurs after 6h3. However, there are no studies evaluating short and long delays simultaneously. Knowing that there are spontaneous waves of destabilization (without the re-exposure to keys linked to learning) on which the consolidation and memory persistence depend6, here we investigate whether declarative memories in humans suffer spontaneous labilization/stabilization processes after learning or if they�…"
+    },
+    {
+      "title": "K-Complex detection algorithm in non-REM sleep",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=s_Gu_N4AAAAJ&pagesize=100&citation_for_view=s_Gu_N4AAAAJ:9yKSN-GCB0IC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/bitstream/handle/123456789/3488/6_VAZQUEZ_CHENLO_SAN_2020.pdf?sequence=1",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Aylin V�zquez Chenlo, Julia Carosi, Giulia Carbonari, Cecilia Forcato, Rodrigo Ramele",
+      "publicationDate": "2020",
+      "description": "\"In order to evaluate the relation between KC and memory processes our main goal was to create a method with Machine Learning techniques to characterize and identify KCs.\""
+    },
+    {
+      "title": "Slow wave detection algorithm in non-REM sleep",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=s_Gu_N4AAAAJ&pagesize=100&citation_for_view=s_Gu_N4AAAAJ:d1gkVwhDpl0C",
+      "externalArticleUrl": "https://ri.itba.edu.ar/bitstream/handle/123456789/3489/7_CARBONARI_SAN_2020.pdf?sequence=1",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3489/7_CARBONARI_SAN_2020.pdf?sequence=1",
+      "totalCitations": 0,
+      "authors": "Giulia Carbonari, Julia Carosi, Aylin V�zquez Chenlo, Eugenia Moris, Cecilia Forcato, Rodrigo Ramele, Ignacio Larrabide",
+      "publicationDate": "2020",
+      "description": "[1] Rasch B, Born J. About sleep's role in memory. Physiol Rev. 2013; 93 (2): 681–766. 10.1152/physrev. 00032.2012; PMCID: PMC3768102.[2] MARSHALL, Lisa, et al. Boosting slow oscillations during sleep potentiates memory. Nature, 2006, vol. 444, no 7119, p. 610-613.[3] Ngo, HVV, Martinetz, T., Born, J., & M�lle, M.(2013). Auditory closed-loop stimulation of the sleep slow oscillation enhances memory. Neuron, 78 (3), 545-553.[4] Rechtschaffen A, Kales A, eds. A Manual of Standardized Terminology, Techniques, and Scoring System for Sleep Stages of Human Subjects. US Department of Health, Education, and Welfare Public Health Service-NIH/NIND. 1968."
+    },
+    {
+      "title": "LPV Control of Current Source Inverter synchronized with the grid",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=q19rcJoAAAAJ&pagesize=100&citation_for_view=q19rcJoAAAAJ:roLk4NBRz8UC",
+      "externalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/9387674/",
+      "pdfLink": "http://latamt.ieeer9.org/index.php/transactions/article/download/3672/940",
+      "totalCitations": 2,
+      "authors": "Alejandro S Ghersin, Pablo Cossutta, Miguel Aguirre",
+      "publicationDate": "2020/10",
+      "journal": "IEEE Latin America Transactions",
+      "volume": "18",
+      "issue": "10",
+      "pages": "1826-1833",
+      "publisher": "IEEE",
+      "description": "Power inverters are widely used in grid connected applications, specially with the increasing use of renewable energies, to improve power quality and increase efficiency. However some parameter associated to the grid and/or the inverters, such as the grid frequency, needs to be known or properly estimated. This estimation introduces an uncertainty in the system and suffer transients due to the estimator. Linear Parameter Varying (LPV) control can be used to account for those uncertainties. This paper presents a feedback control based on a LPV control law to improve the power quality of a grid connected Current Source Inverter (CSI), significantly reducing the total harmonic distortion (THD) of the grid generator current. A linear model of the interconnection is presented, where the frequency of the grid is assumed variable being estimated together with its phase through a Phase Locked Loop (PLL). The LPV�…"
+    },
+    {
+      "title": "Dynamic modelling of alkaline self-pressurized electrolyzers: a phenomenological-based semiphysical approach",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=TWJ9eoQAAAAJ&pagesize=100&citation_for_view=TWJ9eoQAAAAJ:2osOgNQ5qMEC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S0360319920321753",
+      "pdfLink": "https://digital.csic.es/bitstream/10261/227623/1/2354-Dynamic-modelling-of-Alkaline-self-pressurized-electrolyzers_-a-phenomenological-based-semiphysical-approach.pdf",
+      "totalCitations": 20,
+      "authors": "Mart�n David, Hern�n �lvarez, Carlos Ocampo-Martinez, Ricardo S�nchez-Pe�a",
+      "publicationDate": "2020/9/3",
+      "journal": "International Journal of Hydrogen Energy",
+      "volume": "45",
+      "issue": "43",
+      "pages": "22394-22407",
+      "publisher": "Pergamon",
+      "description": "This paper proposes a phenomenological based semiphysical model (PBSM) for a self-pressurized alkaline electrolyzer. The model, based on mass and energy balances, represents the dynamic behaviour of hydrogen and oxygen production using electrolysis. The model allows to anticipate operational variables as dynamic responses in the concentrations of the electrolytic cell, and variations in both, level and pressure, at the gas separation chambers due to the change in electric current. The model parameters have been adjusted based on experimental measurements taken from an available prototype and through a suitable identification process. Simulation results replicate the current dynamic response of the experimental self-pressurized electrolyzer assembly. This model proves to be useful in the improvement of the control of gas production rate in this kind of assemblies, both as a validated simulation�…"
+    },
+    {
+      "title": "Desarrollo de modelos h�bridos para la optimizaci�n de la gesti�n energ�tica de una red el�ctrica con conexi�n a l�nea de suministro, generaci�n mediante fuentes renovables�…",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=42SA-7oAAAAJ&pagesize=100&citation_for_view=42SA-7oAAAAJ:hqOjcs7Dif8C",
+      "externalArticleUrl": "http://www3.fi.mdp.edu.ar/otec/revista/index.php/AACINI-RIII/article/view/8",
+      "pdfLink": "http://www3.fi.mdp.edu.ar/otec/revista/index.php/AACINI-RIII/article/download/8/5",
+      "totalCitations": 0,
+      "authors": "Mauricio Agust�n Sabor, Alan Aeron Jones, Leopoldo De Bernardez, Iv�n Villaboa",
+      "publicationDate": "2020/6/23",
+      "journal": "AACINI-Revista Internacional de Ingenier�a Industrial",
+      "issue": "1",
+      "pages": "17-33",
+      "description": "Se desarroll� un modelo h�brido para la gesti�n de la energ�a de una red el�ctrica con conexi�n a l�nea de suministro, generaci�n mediante fuentes renovables y no renovables, almacenamiento en bater�as, producci�n de hidr�geno y consumo. El modelo permite no solamente optimizar el desempe�o de la red el�ctrica propuesta sino tambi�n analizar instalaciones de producci�n y acumulaci�n de energ�a considerando la oferta y la demanda, los costos involucrados y los precios de compra y venta de energ�a a la red."
+    },
+    {
+      "title": "Computer-assisted surgery for replacement of the temporomandibular joint with customized prostheses: can we validate the results?",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=lhk5azwAAAAJ&pagesize=100&citation_for_view=lhk5azwAAAAJ:qjMakFHDy7sC",
+      "externalArticleUrl": "https://link.springer.com/article/10.1007/s10006-020-00858-3",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 9,
+      "authors": "Luis Alejandro Boccalatte, MG Nassif, Marcelo Fernando Figari, NL G�mez, MC Argibay, AV Mancino, LE Ritacco",
+      "publicationDate": "2020/9",
+      "journal": "Oral and Maxillofacial Surgery",
+      "volume": "24",
+      "issue": "3",
+      "pages": "317-325",
+      "publisher": "Springer Berlin Heidelberg",
+      "description": "                                Purpose                 Replacing the temporomandibular joint poses an important challenge to maxillofacial surgeons, and for certain disorders, it represents the treatment’s gold standard. Computer-assisted surgery (comprising preoperative virtual planning, virtual intraoperative navigation and 3D printing) is a useful tool for this type of surgery. However, we do not know if and how much the final position of the prosthesis differs, in absolute values, from what was planned virtually in the preoperative phase. We propose a comparative result validation system for temporomandibular joint replacement                                               Methods                 In the present study, we propose a comparative validation system using overlapping images, between the model obtained with preoperative virtual planning and the postoperative result.                                               Results                 The mean difference for all screws�…"
+    },
+    {
+      "title": "Obtaining accurate and calibrated coil models for transcranial magnetic stimulation using magnetic field measurements",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=lhk5azwAAAAJ&pagesize=100&citation_for_view=lhk5azwAAAAJ:UeHWp8X0CEIC",
+      "externalArticleUrl": "https://link.springer.com/article/10.1007/s11517-020-02156-2",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3261/Mancino_2020_BIOINGENIERIA_embargo_12_meses.pdf?sequence=1&isAllowed=n",
+      "totalCitations": 3,
+      "authors": "Axel V Mancino, Federico E Milano, F Martin Bertuzzi, Claudio G Yampolsky, Lucas E Ritacco, Marcelo R Risk",
+      "publicationDate": "2020/7",
+      "journal": "Medical & Biological Engineering & Computing",
+      "volume": "58",
+      "issue": "7",
+      "pages": "1499-1514",
+      "publisher": "Springer Berlin Heidelberg",
+      "description": " Currently, simulations of the induced currents in the brain produced by transcranial magnetic stimulation (TMS) are used to elucidate the regions reached by stimuli. However, models commonly found in the literature are too general and neglect imperfections in the windings. Aiming to predict the stimulation sites in patients requires precise modeling of the electric field (E-field), and a proper calibration to adequate to the empirical data of the particular coil employed. Furthermore, most fabricators do not provide precise information about the coil geometries, and even using X-ray images may lead to subjective interpretations. We measured the three components of the vector magnetic field induced by a TMS figure-8 coil with spatial resolutions of up to 1 mm. Starting from a computerized tomography-based coil model, we applied a multivariate optimization algorithm to automatically modify the original model and obtain�…"
+    },
+    {
+      "title": "La prisi�n preventiva y su relaci�n con el tipo de delito y la superpoblaci�n en el Servicio Penitenciario Federal Argentino",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=hOLbs1gAAAAJ&pagesize=100&citation_for_view=hOLbs1gAAAAJ:qjMakFHDy7sC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/bitstream/handle/123456789/3350/TP%20Final%20Recalde%20VF.pdf?sequence=1",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3350/TP%20Final%20Recalde%20VF.pdf?sequence=1",
+      "totalCitations": 0,
+      "authors": "Carlos Gustavo Recalde Chamorro",
+      "publicationDate": "2020/4/6",
+      "description": "La situaci�n del Sistema Penitenciario Federal en Argentina es un tema preocupante desde ya hace varios a�os atr�s para el estado nacional. Desde el a�o 2002 hasta el 2018 seg�n datos publicados en el Ministerio de Justicia, la poblaci�n alojada en las c�rceles federales creci� un 111%, mientras que en el mismo periodo la poblaci�n a nivel pa�s, solo creci� un 18%[INDEC, 2018].En virtud de estos incrementos alarmantes en el sistema penitenciario, es importante realizar un estudio en detalle de la poblaci�n carcelaria en Argentina, la tipolog�a de los delitos y su condici�n legal. Desde el a�o 2002 el Sistema Nacional de Estad�sticas sobre Ejecuci�n de la Pena (SNEEP) contribuye con informaci�n peri�dica con respecto a los internos privados de libertad en las c�rceles federales. Pero sin embargo, el an�lisis de las estad�sticas aplicadas son las cl�sicas. El problema reside en que estos an�lisis no reflejan un prorrateo real de las actividades para desarrollar acciones o medidas preventivas para impedir o predecir hechos delictivos."
+    },
+    {
+      "title": "Evoluci�n del COVID-19 en Argentina: comparaci�n con China, Espa�a e Italia",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=hOLbs1gAAAAJ&pagesize=100&citation_for_view=hOLbs1gAAAAJ:u5HHmVD_uO8C",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3355",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Ver�nica Gisela Ban�s",
+      "publicationDate": "2020",
+      "description": "\"El objetivo de este estudio es entender si Argentina tom� medidas preventivas suficientes y a tiempo para evitar los picos de casos positivos y muertes que tuvieron China, Espa�a e Italia. Con el fin de poder realizar dicho estudio, se har� un an�lisis comparativo entre los cuatro pa�ses anteriormente citados para entender cu�l y c�mo fue la evoluci�n de sus contagios y muertes, qu� medidas preventivas tomaron, cu�l fue el impacto que las mismas tuvieron, entre otras.\""
+    },
+    {
+      "title": "Pandemia y Poderes Judiciales: un punto de apalancamiento hist�rico en la incorporaci�n de tecnolog�as",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=XouNI74AAAAJ&pagesize=100&citation_for_view=XouNI74AAAAJ:u5HHmVD_uO8C",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3282",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3282/Castiglione_2020_1.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 0,
+      "authors": "Sara Noem� Castiglioni",
+      "publicationDate": "2020",
+      "journal": "Revista Electr�nica Instituto de Investigaciones Jur�dicas y Sociales Ambrosio L. Gioja",
+      "issue": "25",
+      "pages": "24-40",
+      "description": "\"Este art�culo se propone describir las estrategias de incorporaci�n de tecnolog�as que implementaron los Poderes Judiciales de Argentina en relaci�n con la pandemia de COVID-19 durante el per�odo del 17 marzo a julio 2020, compararlas con modelos de aprendizaje organizacional y reflexionar sobre la posibilidad de utilizar este acontecimiento hist�rico como punto de apalancamiento para la incorporaci�n de tecnolog�as en el servicio de justicia con miras a construir un servicio m�s cercano al ciudadano y de acuerdo con los paradigmas de gobierno abierto. Esta investigaci�n se encuadra bajo un dise�o cualitativo, de car�cter inductivo, exploratorio y flexible. Para responder a las preguntas de investigaci�n se realizaron 34 entrevistas en profundidad y 27 observaciones participantes.\""
+    },
+    {
+      "title": "Preparation and characterization of nanoencapsulated synthetic soybean oil derivative-an abundant and environmentally friendly phase change material-heat transfer analysis and�…",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=jQS_A1gAAAAJ&pagesize=100&citation_for_view=jQS_A1gAAAAJ:UeHWp8X0CEIC",
+      "externalArticleUrl": "https://www.sciencedirect.com/science/article/pii/S2213138820312212",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3222/Bergamo_2020_ING.%20QUIMICA.pdf?sequence=1&isAllowed=y",
+      "totalCitations": 5,
+      "authors": "Jorge Bergamo, Ezequiel Rossi, Juan Mart�n Maffi, Laura De Angelis, Mar�a In�s Errea",
+      "publicationDate": "2020/10/1",
+      "journal": "Sustainable Energy Technologies and Assessments",
+      "volume": "41",
+      "pages": "100794",
+      "publisher": "Elsevier",
+      "description": "The thermal properties of a phase change material (PCM), together with its environmental health risks and natural abundance are important aspects to consider when choosing one for a domestic application. In this work, a soybean oil derivative, which comes from one of the most abundant crops on Earth, is proposed as PCM. A heat transfer model was developed to compare the performance of the proposed PCM, under the same boundary and initial conditions, with other materials reported in literature that have well-known disadvantages in terms of flammability, renewability, abundance and environmental care. Results showed that its performance was as good as theirs. Nanocapsules of the PCM coated with TiO2 were prepared and characterized physical, thermal and morphologically. Thermal studies were carried out in a device designed and constructed simulating a water heater, and a reduction of about 70�…"
+    },
+    {
+      "title": "Mechanisms and Conditions that Affect Phase Inversion Processes. The Case of High‐Impact Polystyrene",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=jQS_A1gAAAAJ&pagesize=100&citation_for_view=jQS_A1gAAAAJ:u-x6o8ySG0sC",
+      "externalArticleUrl": "https://onlinelibrary.wiley.com/doi/abs/10.1002/pen.25304",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/1861/Maffi_2019.pdf?sequence=1",
+      "totalCitations": 4,
+      "authors": "J. M. Maffi, N. Casis, P. Acu�a, G. Morales, D. Estenoz",
+      "publicationDate": "2020/3",
+      "journal": "Polymer Engineering & Science",
+      "volume": "60",
+      "issue": "3",
+      "pages": "491-502",
+      "publisher": "Wiley",
+      "description": "The phase inversion (PI) during the bulk polymerization of the styrene–polybutadiene system (high impact polystyrene manufacturing process) is empirically and theoretically studied in this article. In the experimental work, a series of reactions were performed with benzoyl peroxide as initiator and at temperatures considered of industrial interest (80�C and 90�C), varying also the reactor stirring level. PI was determined by offline viscosity measurements and verified by scanning transmission electron microscopy. The rheological behavior of each reacting system was analyzed and an empirical correlation to predict its apparent viscosity from fundamental reaction parameters was derived. This was achieved successfully for both before and after the PI point. POLYM. ENG. SCI., 60:491–502, 2020. � 2019 Society of Plastics Engineers"
+    },
+    {
+      "title": "COVID-19 pandemic: A paradigm shift in the West?",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Vw2ACFAAAAAJ&pagesize=100&citation_for_view=Vw2ACFAAAAAJ:W7OEmFMy1HYC",
+      "externalArticleUrl": "https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-892560",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 1,
+      "authors": "Merlina Conti, Pamela Bellucci, Mart�n Schick, Mar�a Julieta Trobbiani, Natalia Jullier, Gustavo Panza, Dami�n Garayalde, Nahuel Mateo, Ezequiel Rojas, Cristian S�nchez",
+      "publicationDate": "2020",
+      "journal": "Revista Chilena de Anestesia",
+      "pages": "464-472",
+      "description": "In this article, we develop evidence-based recommendations to efficiently administer the limited resources of the healthcare facilities in medium and low income countries in the context of a pandemic. We searched MedLine database using the MeSH terms “Pneumonia, viral/prevention and control”,“Pneumonia, viral/transmission”,“Coronavirus Infections/prevention and control”,“Coronavirus Infections/transmission”,“COVID-19”,“Masks/classification”,“Masks/microbiology”,“Respiratory Protective Devices”, among others. We recommend that the general population wears a face mask. On the institutional level, ventilation and appropriate bed distancing proved to be effective preventive measures. The most important factor in the containment of an outbreak is the timely identification of infected patients. Negative pressure and ventilation systems are also highly recommended. Using a full face mask together with a surgical�…"
+    },
+    {
+      "title": "Pandemia COVID-19:� un cambio de paradigma en Occidente?",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=Vw2ACFAAAAAJ&pagesize=100&citation_for_view=Vw2ACFAAAAAJ:Y0pCki6q_DkC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3256",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3256/Conti_2020_BIOINGENIERIA_AA.pdf?sequence=3&isAllowed=y",
+      "totalCitations": 0,
+      "authors": "Merlina Conti, Pamela Bellucci, Mart�n Schick, Mar�a Julieta Trobbiani, Natalia Jullier, Gustavo Panza, Dami�n Garayalde, Nahuel Mateo, Ezequiel Rojas, Cristian S�nchez",
+      "publicationDate": "2020",
+      "description": "\"Elaboramos recomendaciones basadas en la evidencia para administrar los recursos imprescindibles en los centros sanitarios, en contexto de pandemia, en un pa�s de bajos recursos econ�micos. Se realizaron b�squedas MedLine utilizando t�rminos MeSH “Pneumonia, viral/prevention and control”, “Pneumonia, viral/transmission”, “Coronavirus Infections/prevention and control”, “Coronavirus Infections/transmission”, “COVID-19”, “Masks/classification”, “Masks/microbiology”, “Respiratory Protective Devices”, entre otros. Se recomienda que la poblaci�n general porte mascarilla. A nivel institucional, la ventilaci�n y el correcto distanciamiento de las camas son medidas de prevenci�n efectivas. El factor m�s importante en la contenci�n de un brote es la identificaci�n oportuna de pacientes infectados. Se recomienda el uso de presi�n negativa y sistemas de ventilaci�n. Ante la escasez de mascarillas tipo N95, el uso de protectores faciales totales y mascarilla quir�rgica es una opci�n factible. Proponemos una estrategia integral con medidas de afrontamiento para entidades sanitarias y la sociedad en general.\""
+    },
+    {
+      "title": "Design of ESD protections for ECG applications",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=I603PAQAAAAJ&pagesize=100&citation_for_view=I603PAQAAAAJ:UeHWp8X0CEIC",
+      "externalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/9046370/",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/2216/Gardella_2020_ponencia_ING_ELECTRONICA.pdf?sequence=1",
+      "totalCitations": 2,
+      "authors": "Pablo Jes�s Gardella, Eduardo Baez, Juan Manuel Cesaretti",
+      "publicationDate": "2020/2/27",
+      "conference": "2020 Argentine Conference on Electronics (CAE)",
+      "pages": "104-107",
+      "publisher": "IEEE",
+      "description": "This paper presents the design of Electrostatic Discharge (ESD) protections for a remote Electroencephalograph (ECG). Design and layout guidelines are analyzed to improve the ESD robustness of a Grounded-Gate NMOS (GGNMOS) cell based on a single well CMOS-only process. Experimental validation is done by means of a Time Domain Reflectometry (TDR) technique known as Transmission Line Pulse (TLP) testing. The silicon implementation of the proposed design passes �3700V in the Human-Body Model (HBM)."
+    },
+    {
+      "title": "False memory formation during Covid-19 quarantine: age, sleep quality and emotional variables. Preliminary results",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=AlBnlfYAAAAJ&pagesize=100&citation_for_view=AlBnlfYAAAAJ:d1gkVwhDpl0C",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3482",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Mat�as Bonilla, Candela S Le�n, Facundo A Urreta Ben�tez, Natalia Lippmann-Mazzaglia, Camila Calvo, Manuel Garrido, Cecilia Forcato",
+      "publicationDate": "2020",
+      "description": "1 Wade KA, Garry M, Read JD, Lindsay DS (2002). Psychon B review, 9 (3), 597-603. 2 Aizpurua A, Garc�a-Bajos E, Migueles M (2009). Estudios de Psicolog�a, 30 (3), 291-302. 3 Gallo DA, Cotel SC, Moore CD, Schacter DL (2007). Psychol Aging, 22 (1), 209. 4 Roberts P (2002). Curr Psychol, 21 (3), 240-252. 5 Howe ML, Malone C (2011). Memory, 19 (2), 192–201. 6 Etchevers et al (2020). OPSA. Recuperado de: http://www. psi. uba. ar/opsa/# informes"
+    },
+    {
+      "title": "Declarative memory consolidation dynamics: new time windows and its implications for clinical application",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=MOYqnUEAAAAJ&pagesize=100&citation_for_view=MOYqnUEAAAAJ:W7OEmFMy1HYC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/handle/123456789/3480",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Malen D Moyano, Mat�as Bonilla, Marcelo F Blanco, Ignacio Brusco, Mar�a Eugenia Pedreira, Laura Kaczer, Cecilia Forcato",
+      "publicationDate": "2020",
+      "description": "After encoding, memories go through a labile state followed by a stabilization process known as consolidation1. Once consolidated they can enter a new labile state after the presentation of a reminder (cue) of the original memory, followed by a period of re-stabilization (reconsolidation) 2. In both processes, once stabilization/re-stabilization is accomplished the memory cannot be modified3. Currently there are studies that show a rapid stabilization after 30 min4, 5, while others studies show that stabilization occurs after 6h3. However, there are no studies evaluating short and long delays simultaneously. Knowing that there are spontaneous waves of destabilization (without the re-exposure to keys linked to learning) on which the consolidation and memory persistence depend6, here we investigate whether declarative memories in humans suffer spontaneous labilization/stabilization processes after learning or if they�…"
+    },
+    {
+      "title": "K-Complex detection algorithm in non-REM sleep",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=s_Gu_N4AAAAJ&pagesize=100&citation_for_view=s_Gu_N4AAAAJ:9yKSN-GCB0IC",
+      "externalArticleUrl": "https://ri.itba.edu.ar/bitstream/handle/123456789/3488/6_VAZQUEZ_CHENLO_SAN_2020.pdf?sequence=1",
+      "pdfLink": "<Value not found.>",
+      "totalCitations": 0,
+      "authors": "Aylin V�zquez Chenlo, Julia Carosi, Giulia Carbonari, Cecilia Forcato, Rodrigo Ramele",
+      "publicationDate": "2020",
+      "description": "\"In order to evaluate the relation between KC and memory processes our main goal was to create a method with Machine Learning techniques to characterize and identify KCs.\""
+    },
+    {
+      "title": "Slow wave detection algorithm in non-REM sleep",
+      "scholarUrl": "https://scholar.google.com//citations?view_op=view_citation&hl=en&oe=ASCII&user=s_Gu_N4AAAAJ&pagesize=100&citation_for_view=s_Gu_N4AAAAJ:d1gkVwhDpl0C",
+      "externalArticleUrl": "https://ri.itba.edu.ar/bitstream/handle/123456789/3489/7_CARBONARI_SAN_2020.pdf?sequence=1",
+      "pdfLink": "https://ri.itba.edu.ar/bitstream/handle/123456789/3489/7_CARBONARI_SAN_2020.pdf?sequence=1",
+      "totalCitations": 0,
+      "authors": "Giulia Carbonari, Julia Carosi, Aylin V�zquez Chenlo, Eugenia Moris, Cecilia Forcato, Rodrigo Ramele, Ignacio Larrabide",
+      "publicationDate": "2020",
+      "description": "[1] Rasch B, Born J. About sleep's role in memory. Physiol Rev. 2013; 93 (2): 681–766. 10.1152/physrev. 00032.2012; PMCID: PMC3768102.[2] MARSHALL, Lisa, et al. Boosting slow oscillations during sleep potentiates memory. Nature, 2006, vol. 444, no 7119, p. 610-613.[3] Ngo, HVV, Martinetz, T., Born, J., & M�lle, M.(2013). Auditory closed-loop stimulation of the sleep slow oscillation enhances memory. Neuron, 78 (3), 545-553.[4] Rechtschaffen A, Kales A, eds. A Manual of Standardized Terminology, Techniques, and Scoring System for Sleep Stages of Human Subjects. US Department of Health, Education, and Welfare Public Health Service-NIH/NIND. 1968."
+    }
+  ]
+}
